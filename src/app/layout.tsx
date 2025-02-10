@@ -15,32 +15,20 @@ export const metadata: Metadata = {
   description:
     "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
   openGraph: {
+    type: "website",
+    url: "https://personal-logs.vercel.app/book",
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    url: "https://personal-logs.vercel.app/book",
-    images: [
-      {
-        url: "https://personal-logs.vercel.app/icon/app.png",
-        width: 1800,
-        height: 1600,
-        alt: "About Personal Logs",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
+    images: ["https://personal-logs.vercel.app/icon/app.png"],
   },
   twitter: {
+    site: "@hsnice16",
     card: "summary_large_image",
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    images: {
-      url: "https://personal-logs.vercel.app/icon/app.png",
-      width: 1800,
-      height: 1600,
-      alt: "About Personal Logs",
-    },
+    images: ["https://personal-logs.vercel.app/icon/app.png"],
   },
 };
 
