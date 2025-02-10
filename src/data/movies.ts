@@ -24,7 +24,14 @@ import SardarUdham from "@/movie/sardar-udham.jpg";
 import RockyIV from "@/movie/rocky-iv.jpeg";
 import RockyV1990 from "@/movie/rocky-v-1990.jpg";
 import RockyBalboa from "@/movie/rocky-balboa.jpg";
-
+import HarryPotter1 from "@/movie/harry-potter-1.jpg";
+import HarryPotter2 from "@/movie/harry-potter-2.jpg";
+import HarryPotter3 from "@/movie/harry-potter-3.jpg";
+import HarryPotter4 from "@/movie/harry-potter-4.jpg";
+import HarryPotter5 from "@/movie/harry-potter-5.jpg";
+import HarryPotter6 from "@/movie/harry-potter-6.jpg";
+import HarryPotter7 from "@/movie/harry-potter-7.jpg";
+import HarryPotter8 from "@/movie/harry-potter-8.jpg";
 import TrustNoOneTheHunt from "@/movie/trust-no-one-the-hunt.jpg";
 import KgfChapter2 from "@/movie/kgf-chapter-2.webp";
 import TheOutlaws2017 from "@/movie/the-outlaws-2017.jpg";
@@ -624,7 +631,38 @@ export const MOVIES = {
       name: "Trust No One: The Hunt For The Crypto King",
       img: TrustNoOneTheHunt,
     },
-
+    {
+      name: "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+      img: HarryPotter8,
+    },
+    {
+      name: "Harry Potter and the Deathly Hallows: Part 1 (2010)",
+      img: HarryPotter7,
+    },
+    {
+      name: "Harry Potter and the Half-Blood Prince (2009)",
+      img: HarryPotter6,
+    },
+    {
+      name: "Harry Potter and the Order of the Phoenix (2007)",
+      img: HarryPotter5,
+    },
+    {
+      name: "Harry Potter and the Goblet of Fire (2005)",
+      img: HarryPotter4,
+    },
+    {
+      name: "Harry Potter and the Prisoner of Azkaban (2004)",
+      img: HarryPotter3,
+    },
+    {
+      name: "Harry Potter and the Chamber of Secrets (2002)",
+      img: HarryPotter2,
+    },
+    {
+      name: "Harry Potter and the Sorcerer's Stone (2001)",
+      img: HarryPotter1,
+    },
     {
       name: "Rocky Balboa",
       img: RockyBalboa,
