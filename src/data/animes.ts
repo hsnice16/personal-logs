@@ -35,7 +35,15 @@ import SeiinHighSchoolBoysVolleyballTeam from "@/anime/seiin-high-school-boys-vo
 
 import ASignOfAffection from "@/anime/a-sign-of-affection.jpg";
 
+import Free from "@/anime/free.jpg";
+
 export const ANIMES = {
+  "Feb '25": [
+    {
+      name: "Free!",
+      img: Free,
+    },
+  ],
   "Jan '25": [
     {
       name: "A Sign of Affection",

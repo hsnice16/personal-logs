@@ -14,5 +14,9 @@ export const LINKS = {
       href: "anime",
       label: "Anime",
     },
+    {
+      href: "web-show",
+      label: "Web Show",
+    },
   ],
 };

@@ -26,7 +26,8 @@
       "@/book/*": ["public/book/*"],
       "@/icon/*": ["public/icon/*"],
       "@/movie/*": ["public/movie/*"],
-      "@/anime/*": ["public/anime/*"]
+      "@/anime/*": ["public/anime/*"],
+      "@/web-show/*": ["public/web-show/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
