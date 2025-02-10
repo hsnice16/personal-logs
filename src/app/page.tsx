@@ -4,8 +4,8 @@ export default function Page() {
       <h2 className="font-semibold text-3xl">Welcome to Personal Log</h2>
       <p className="text-gray-100 max-w-xl pl-4">
         This is my little corner of the web, where I keep track of the books
-        I've read and, perhaps, more things in the future. Feel free to browse
-        around—you might find something interesting!
+        I&apos;ve read and, perhaps, more things in the future. Feel free to
+        browse around—you might find something interesting!
         <br />
         <br />
         If you enjoy the site and want to support it, you can{" "}

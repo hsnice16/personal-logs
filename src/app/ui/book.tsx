@@ -36,7 +36,10 @@ export default function Book({ book }: BookProps) {
           <div className="flex gap-2 mt-1 flex-wrap">
             {book.tags.map((tag) => {
               return (
-                <span className="px-1 bg-neutral-300 rounded-md text-xs font-medium">
+                <span
+                  className="px-1 bg-neutral-300 rounded-md text-xs font-medium"
+                  key={tag}
+                >
                   {tag}
                 </span>
               );
