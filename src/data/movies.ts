@@ -13,6 +13,36 @@ import KgfChapter1 from "@/movie/kgf-chapter-1.jpeg";
 import IpMan3 from "@/movie/ip-man-3.jpg";
 import JustinBieberOurWorld from "@/movie/justin-bieber-our-world.jpeg";
 
+import GangsOfWasseypur from "@/movie/gangs-of-wasseypur.jpg";
+import GangsOfWasseypurII from "@/movie/gangs-of-wasseypur-ii.jpg";
+import JohnWickChapter3 from "@/movie/john-wick-chapter-3.jpeg";
+import TopGun1986 from "@/movie/top-gun-1986.jpg";
+import Nobody2021 from "@/movie/nobody-2021.jpeg";
+import TripleFrontier2019 from "@/movie/triple-frontier-2019.jpg";
+import TopGunner2020 from "@/movie/top-gunner-2020.jpg";
+import FindingYou2020 from "@/movie/finding-you-2020.jpg";
+import NarvikFilm from "@/movie/narvik-film.png";
+import JohnWickChapter4 from "@/movie/john-wick-chapter-4.webp";
+import ZindagiNaMilegiDobara from "@/movie/zindagi-na-milegi-dobara.jpg";
+import AccidentManHitmansHoliday from "@/movie/accident-man-hitmans-holiday.jpg";
+import TheRedGhost2020 from "@/movie/the-red-ghost-2020.jpg";
+import WhitneyHoustonIWannaDanceWithSomebody from "@/movie/whitney-houston-i-wanna-dance-with-somebody.jpg";
+import Detachment2011 from "@/movie/detachment-2011.jpg";
+import ScreamVI from "@/movie/scream-vi.jpg";
+import Ghosted2023 from "@/movie/ghosted-2023.png";
+import OperationFortuneRuseDeGuerre from "@/movie/operation-fortune-ruse-de-guerre.webp";
+import Air2023 from "@/movie/air-2023.webp";
+import Bloodsport1988 from "@/movie/bloodsport-1988.webp";
+import FastX2023 from "@/movie/fast-x-2023.jpg";
+import AvatarTheWayOfWater from "@/movie/avatar-the-way-of-water.avif";
+import TheMagnificentButcher1979 from "@/movie/the-magnificent-butcher-1979.jpg";
+import WeReTheMillers from "@/movie/we-re-the-millers.jpg";
+import HighNdLowTheWorst from "@/movie/high-nd-low-the-worst.jpg";
+import TheGangsterTheCopTheDevil2019 from "@/movie/the-gangster-the-cop-the-devil-2019.jpg";
+import TheRoundup2022 from "@/movie/the-roundup-2022.jpg";
+import TheRoundupNoWayOut from "@/movie/the-roundup-no-way-out.jpg";
+import Oppenheimer from "@/movie/oppenheimer.jpg";
+import TheBadGuysReignOfChaos from "@/movie/the-bad-guys-reign-of-chaos.jpg";
 import Unstoppable2019 from "@/movie/unstoppable-2019.jpg";
 import Undisputed2002 from "@/movie/undisputed-2002.jpg";
 import Undisputed2LastManStanding from "@/movie/undisputed-ii-last-man-standing.jpg";
@@ -366,6 +396,126 @@ export const MOVIES = {
     {
       name: "Unstoppable (2019)",
       img: Unstoppable2019,
+    },
+    {
+      name: "The Bad Guys: Reign of Chaos",
+      img: TheBadGuysReignOfChaos,
+    },
+    {
+      name: "Oppenheimer",
+      img: Oppenheimer,
+    },
+    {
+      name: "The Roundup: No Way Out",
+      img: TheRoundupNoWayOut,
+    },
+    {
+      name: "The Roundup (2022)",
+      img: TheRoundup2022,
+    },
+    {
+      name: "The Gangster, the Cop, the Devil (2019)",
+      img: TheGangsterTheCopTheDevil2019,
+    },
+    {
+      name: "High&Low The Worst",
+      img: HighNdLowTheWorst,
+    },
+    {
+      name: "We're The Millers",
+      img: WeReTheMillers,
+    },
+    {
+      name: "The Magnificent Butcher (1979)",
+      img: TheMagnificentButcher1979,
+    },
+    {
+      name: "Avatar: The Way Of Water",
+      img: AvatarTheWayOfWater,
+    },
+    {
+      name: "Fast X (2023)",
+      img: FastX2023,
+    },
+    {
+      name: "Bloodsport (1988)",
+      img: Bloodsport1988,
+    },
+    {
+      name: "Air (2023)",
+      img: Air2023,
+    },
+    {
+      name: "Operation Fortune: Ruse De Guerre",
+      img: OperationFortuneRuseDeGuerre,
+    },
+    {
+      name: "Ghosted (2023)",
+      img: Ghosted2023,
+    },
+    {
+      name: "Scream VI",
+      img: ScreamVI,
+    },
+    {
+      name: "Detachment (2011)",
+      img: Detachment2011,
+    },
+    {
+      name: "Whitney Houston: I Wanna Dance With Somebody",
+      img: WhitneyHoustonIWannaDanceWithSomebody,
+    },
+    {
+      name: "The Red Ghost (2020)",
+      img: TheRedGhost2020,
+    },
+    {
+      name: "Accident Man: Hitman's Holiday",
+      img: AccidentManHitmansHoliday,
+    },
+    {
+      name: "Zindagi Na Milegi Dobara",
+      img: ZindagiNaMilegiDobara,
+    },
+    {
+      name: "John Wick: Chapter 4",
+      img: JohnWickChapter4,
+    },
+    {
+      name: "Narvik (film)",
+      img: NarvikFilm,
+    },
+    {
+      name: "Finding You (2020)",
+      img: FindingYou2020,
+    },
+    {
+      name: "Top Gunner (2020)",
+      img: TopGunner2020,
+    },
+    {
+      name: "Triple Frontier (2019)",
+      img: TripleFrontier2019,
+    },
+    {
+      name: "Nobody (2021)",
+      img: Nobody2021,
+    },
+    {
+      name: "Top Gun (1986)",
+      img: TopGun1986,
+    },
+    {
+      name: "John Wick: Chapter 3 - Parabellum",
+      img: JohnWickChapter3,
+    },
+    {
+      name: "Gangs Of Wasseypur II",
+      img: GangsOfWasseypurII,
+    },
+    {
+      name: "Gangs Of Wasseypur",
+      img: GangsOfWasseypur,
     },
 
     {
