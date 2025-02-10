@@ -23,7 +23,9 @@ export const metadata: Metadata = {
     images: ["https://personal-logs.vercel.app/icon/app.png"],
   },
   twitter: {
-    site: "@hsnice16",
+    siteId: "1202284632609193984",
+    creator: "@hsnice16",
+    creatorId: "1202284632609193984",
     card: "summary_large_image",
     title: "Personal Logs",
     description:

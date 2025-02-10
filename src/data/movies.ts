@@ -13,6 +13,26 @@ import KgfChapter1 from "@/movie/kgf-chapter-1.jpeg";
 import IpMan3 from "@/movie/ip-man-3.jpg";
 import JustinBieberOurWorld from "@/movie/justin-bieber-our-world.jpeg";
 
+import Unstoppable2019 from "@/movie/unstoppable-2019.jpg";
+import Undisputed2002 from "@/movie/undisputed-2002.jpg";
+import Undisputed2LastManStanding from "@/movie/undisputed-ii-last-man-standing.jpg";
+import Undisputed3Redemption from "@/movie/undisputed-3-redemption.jpg";
+import BoykaUndisputed from "@/movie/boyka-undisputed.avif";
+import TheVillagers2018 from "@/movie/the-villagers-2018.jpeg";
+import TheFlash2023 from "@/movie/the-flash-2023.webp";
+import Halloween from "@/movie/halloween.avif";
+import TalkToMe2023 from "@/movie/talk-to-me-2023.jpeg";
+import ElevatorGame2023 from "@/movie/elevator-game-2023.jpg";
+import TwoOne2018 from "@/movie/21-2018.jpg";
+import Champion2018 from "@/movie/champion-2018.jpg";
+import GranTurismo2023 from "@/movie/gran-turismo-2023.jpg";
+import TheEqualizer3 from "@/movie/the-equalizer-3.jpg";
+import Ballerina2023 from "@/movie/ballerina-2023.jpg";
+import MissionImpossibleDeadReckoning from "@/movie/mission-impossible-dead-reckoning.jpg";
+import BadEducation2019 from "@/movie/bad-education-2019.jpeg";
+import ErinBrockovich2000 from "@/movie/erin-brockovich-2000.jpg";
+import Expend4bles2023 from "@/movie/expend4bles-2023.jpg";
+import Puzzle2018 from "@/movie/puzzle-2018.jpg";
 import Gifted2017 from "@/movie/gifted-2017.jpeg";
 import Murderer2014 from "@/movie/murderer-2014.jpg";
 import Radioactive2019 from "@/movie/radioactive-2019.jpg";
@@ -266,6 +286,86 @@ export const MOVIES = {
     {
       name: "Gifted (2017)",
       img: Gifted2017,
+    },
+    {
+      name: "Puzzle (2018)",
+      img: Puzzle2018,
+    },
+    {
+      name: "Expend4bles (2023)",
+      img: Expend4bles2023,
+    },
+    {
+      name: "Erin Brockovich (2000)",
+      img: ErinBrockovich2000,
+    },
+    {
+      name: "Bad Education (2019)",
+      img: BadEducation2019,
+    },
+    {
+      name: "Mission Impossible: Dead Reckoning Part 1",
+      img: MissionImpossibleDeadReckoning,
+    },
+    {
+      name: "Ballerina (2023)",
+      img: Ballerina2023,
+    },
+    {
+      name: "The Equalizer 3",
+      img: TheEqualizer3,
+    },
+    {
+      name: "Gran Turismo (2023)",
+      img: GranTurismo2023,
+    },
+    {
+      name: "Champion (2018)",
+      img: Champion2018,
+    },
+    {
+      name: "21 (2018)",
+      img: TwoOne2018,
+    },
+    {
+      name: "Elevator Game (2023)",
+      img: ElevatorGame2023,
+    },
+    {
+      name: "Talk to Me (2023)",
+      img: TalkToMe2023,
+    },
+    {
+      name: "Halloween",
+      img: Halloween,
+    },
+    {
+      name: "The Flash (2023)",
+      img: TheFlash2023,
+    },
+    {
+      name: "The Villagers (2018)",
+      img: TheVillagers2018,
+    },
+    {
+      name: "Boyka: Undisputed",
+      img: BoykaUndisputed,
+    },
+    {
+      name: "Undisputed III: Redemption",
+      img: Undisputed3Redemption,
+    },
+    {
+      name: "Undisputed II: Last Man Standing",
+      img: Undisputed2LastManStanding,
+    },
+    {
+      name: "Undisputed (2002)",
+      img: Undisputed2002,
+    },
+    {
+      name: "Unstoppable (2019)",
+      img: Unstoppable2019,
     },
 
     {
