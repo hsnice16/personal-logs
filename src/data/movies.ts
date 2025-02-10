@@ -152,9 +152,14 @@ import Hustle2022 from "@/movie/hustle-2022.jpg";
 import TheBanker from "@/movie/the-banker.jpg";
 
 import Forgotten2017 from "@/movie/forgotten-2017.jpg";
+import PeleBirthOfALegend from "@/movie/pele-birth-of-a-legend.jpg";
 
 export const MOVIES = {
   "Feb '25": [
+    {
+      name: "Pelé: Birth of a Legend (2016)",
+      img: PeleBirthOfALegend,
+    },
     {
       name: "Forgotten (2017)",
       img: Forgotten2017,
