@@ -37,7 +37,7 @@ npm run dev
 
 ## 👀 How it looks
 
-<img width="1440" alt="demo gif" src="public/gif/demo.gif">
+<img width="1440" alt="demo gif" src="src/app/twitter-image.gif">
 
 ## 💚 Sponsor
 
