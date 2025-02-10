@@ -39,8 +39,6 @@ npm run dev
 
 <img width="1440" alt="demo gif" src="public/gif/demo.gif">
 
----
-
 ## 💚 Sponsor
 
 If you found this project helpful, then do consider sponsoring it - [Sponsor](https://github.com/sponsors/hsnice16)<br/>And, give it a star 🌟
