@@ -23,7 +23,7 @@ export default function MainNav() {
               const entries = LINKS[key];
 
               return (
-                <div className="px-2 flex flex-col">
+                <div className="px-2 flex flex-col" key={key}>
                   {key !== "0" ? <p className="text-gray-100">---</p> : null}
 
                   {entries.map((link) => {
