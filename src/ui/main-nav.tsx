@@ -5,21 +5,7 @@ import { useSelectedLayoutSegment } from "next/navigation";
 import clsx from "clsx";
 import PaymentLink from "./payment-link";
 import { InstagramLogo, XLogo } from "@phosphor-icons/react";
-
-const links = [
-  {
-    href: "book",
-    label: "Book",
-  },
-  {
-    href: "movie",
-    label: "Movie",
-  },
-  {
-    href: "anime",
-    label: "Anime",
-  },
-];
+import { LINKS } from "@/data/navs";
 
 export default function MainNav() {
   const segment = useSelectedLayoutSegment();
@@ -33,20 +19,30 @@ export default function MainNav() {
           </p>
 
           <div className="flex flex-col">
-            {links.map((link) => {
-              const isActive = segment === link.href;
+            {Object.keys(LINKS).map((key) => {
+              const entries = LINKS[key];
 
               return (
-                <Link
-                  key={link.href}
-                  href={"/" + link.href}
-                  className={clsx("mb-1 ml-1 px-2 text-sm font-normal", {
-                    "text-primary": isActive,
-                    "text-gray-100": !isActive,
+                <div className="px-2 flex flex-col">
+                  {key !== "0" ? <p className="text-gray-100">---</p> : null}
+
+                  {entries.map((link) => {
+                    const isActive = segment === link.href;
+
+                    return (
+                      <Link
+                        key={link.href}
+                        href={"/" + link.href}
+                        className={clsx("mb-1 ml-1 px-2 text-sm font-normal", {
+                          "text-primary": isActive,
+                          "text-gray-100": !isActive,
+                        })}
+                      >
+                        {link.label}
+                      </Link>
+                    );
                   })}
-                >
-                  {link.label}
-                </Link>
+                </div>
               );
             })}
           </div>
