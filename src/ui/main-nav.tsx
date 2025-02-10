@@ -10,6 +10,10 @@ const links = [
     href: "book",
     label: "Book",
   },
+  {
+    href: "movie",
+    label: "Movie",
+  },
 ];
 
 export default function MainNav() {
@@ -23,22 +27,24 @@ export default function MainNav() {
             Page
           </p>
 
-          {links.map((link) => {
-            const isActive = segment === link.href;
+          <div className="flex flex-col">
+            {links.map((link) => {
+              const isActive = segment === link.href;
 
-            return (
-              <Link
-                key={link.href}
-                href={"/" + link.href}
-                className={clsx("mb-1 ml-1 px-2 text-sm font-normal", {
-                  "text-primary": isActive,
-                  "text-gray-100": !isActive,
-                })}
-              >
-                {link.label}
-              </Link>
-            );
-          })}
+              return (
+                <Link
+                  key={link.href}
+                  href={"/" + link.href}
+                  className={clsx("mb-1 ml-1 px-2 text-sm font-normal", {
+                    "text-primary": isActive,
+                    "text-gray-100": !isActive,
+                  })}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
+          </div>
         </div>
 
         <PaymentLink />

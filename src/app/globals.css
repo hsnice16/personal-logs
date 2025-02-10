@@ -4,8 +4,15 @@
   --color-black-900: #09090b;
   --color-black-700: #585867;
 
+  --color-brown-850: #5b4f41d9;
+
   --color-gray-100: #71717a;
   --color-primary: #486fdd;
+}
+
+@utility movie-hover {
+  opacity: 100%;
+  transition: opacity 0.5s;
 }
 
 @utility animate-typing {

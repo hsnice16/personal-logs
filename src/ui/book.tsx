@@ -16,7 +16,7 @@ export default function Book({ book }: BookProps) {
         {book.img ? (
           <Image
             src={book.img}
-            alt="steve-jobs"
+            alt={book.name}
             placeholder="blur"
             className={clsx(
               "absolute max-h-[165px] max-w-[136px] left-[42px] top-[27px] rotate-x-[38deg] -rotate-y-[24deg] rotate-z-[19deg]",
