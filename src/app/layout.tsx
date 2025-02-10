@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app.png"],
+    images: ["https://personal-logs.vercel.app/icon/app-book.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app.png"],
+    images: ["https://personal-logs.vercel.app/icon/app-book.png"],
   },
 };
 

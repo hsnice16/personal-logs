@@ -1,6 +1,10 @@
 export const LINKS = {
   0: [
     {
+      href: "writing",
+      label: "Writing",
+    },
+    {
       href: "book",
       label: "Book",
     },

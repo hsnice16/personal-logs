@@ -27,7 +27,8 @@
       "@/icon/*": ["public/icon/*"],
       "@/movie/*": ["public/movie/*"],
       "@/anime/*": ["public/anime/*"],
-      "@/web-show/*": ["public/web-show/*"]
+      "@/web-show/*": ["public/web-show/*"],
+      "@/writing/*": ["public/writing/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
