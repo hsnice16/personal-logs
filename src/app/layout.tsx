@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
   openGraph: {
-    type: "website",
+    siteName: "Personal Logs",
     url: "https://personal-logs.vercel.app/book",
     title: "Personal Logs",
     description:
@@ -23,9 +23,6 @@ export const metadata: Metadata = {
     images: ["https://personal-logs.vercel.app/icon/app.png"],
   },
   twitter: {
-    siteId: "1202284632609193984",
-    creator: "@hsnice16",
-    creatorId: "1202284632609193984",
     card: "summary_large_image",
     title: "Personal Logs",
     description:
