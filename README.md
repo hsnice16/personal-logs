@@ -14,8 +14,6 @@ Tracking books I've read and more. Browse around—you might find something inte
 
 </div>
 
----
-
 ## 🔌 Getting Started
 
 1. Clone the repository on your local machine with the command below in your terminal, and cd into the **personal-logs** folder.
@@ -37,8 +35,6 @@ npm install
 npm run dev
 ```
 
----
-
 ## 👀 How it looks
 
 <img width="1440" alt="demo gif" src="public/gif/demo.gif">
@@ -47,6 +43,4 @@ npm run dev
 
 ## 💚 Sponsor
 
-If you found this project helpful, then do consider sponsoring it - [Sponsor](https://github.com/sponsors/hsnice16)
-
-And, give it a star 🌟
+If you found this project helpful, then do consider sponsoring it - [Sponsor](https://github.com/sponsors/hsnice16)<br/>And, give it a star 🌟
