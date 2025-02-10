@@ -5,6 +5,16 @@ import MainNav from "@/ui/main-nav";
 import MainHead from "@/ui/main-head";
 import { geist } from "@/constant/font";
 import clsx from "clsx";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    template: "%s | Personal Logs",
+    absolute: "Personal Logs",
+  },
+  description:
+    "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
+};
 
 export default function RootLayout({
   children,

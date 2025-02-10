@@ -28,7 +28,7 @@ export default function Book({ book }: BookProps) {
         ) : null}
       </div>
 
-      <div className="rounded-md absolute left-0 bottom-0 right-0 top-0 bg-linear-to-t from-neutral-200 to-neutral-50/8 flex flex-col justify-end p-4 text-sm gap-1">
+      <div className="rounded-md absolute left-0 bottom-0 right-0 top-0 bg-linear-to-t from-neutral-200 to-neutral-50/2 flex flex-col justify-end p-4 text-sm gap-1">
         <p className="font-semibold">{book.name}</p>
         <p className="text-xs italic">by {book.author}</p>
 
