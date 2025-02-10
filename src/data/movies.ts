@@ -12,7 +12,38 @@ import TwoHearts from "@/movie/2-hearts.jpeg";
 import KgfChapter1 from "@/movie/kgf-chapter-1.jpeg";
 import IpMan3 from "@/movie/ip-man-3.jpg";
 import JustinBieberOurWorld from "@/movie/justin-bieber-our-world.jpeg";
+import HalloweenKills from "@/movie/halloween-kills.webp";
+import IpMan2008 from "@/movie/ip-man-2008.jpg";
+import IpMan4TheFinale from "@/movie/ip-man-4-the-finale.jpeg";
+import NoTimeToDie from "@/movie/no-time-to-die.webp";
+import ArmyOfThieves from "@/movie/army-of-thieves.jpg";
+import TheLegendOfBuddha2004 from "@/movie/the-legend-of-buddha-2004.jpg";
+import KingRichard from "@/movie/king-richard.jpg";
+import JaiBhim from "@/movie/jai-bhim.jpg";
+import SardarUdham from "@/movie/sardar-udham.jpg";
+import RockyIV from "@/movie/rocky-iv.jpeg";
+import RockyV1990 from "@/movie/rocky-v-1990.jpg";
+import RockyBalboa from "@/movie/rocky-balboa.jpg";
 
+import TrustNoOneTheHunt from "@/movie/trust-no-one-the-hunt.jpg";
+import KgfChapter2 from "@/movie/kgf-chapter-2.webp";
+import TheOutlaws2017 from "@/movie/the-outlaws-2017.jpg";
+import TheImitationGame from "@/movie/the-imitation-game.jpeg";
+import CoachCarter2005 from "@/movie/coach-carter-2005.jpg";
+import TheRaid2 from "@/movie/the-raid-2.jpeg";
+import TheFighter from "@/movie/the-fighter.jpg";
+import Wushu2008 from "@/movie/wushu-2008.jpg";
+import TheSwimmers2022 from "@/movie/the-swimmers-2022.jpg";
+import TheNewLegendOfShaolin from "@/movie/the-new-legend-of-shaolin.jpg";
+import GodFather2022 from "@/movie/godfather-2022.jpg";
+import Spotlight from "@/movie/spotlight.jpg";
+import RiseOfTheLegend2014 from "@/movie/rise-of-the-legend-2014.jpg";
+import TheDaVinciCode2006 from "@/movie/the-da-vinci-code-2006.jpg";
+import ProjectWolfHunting2022 from "@/movie/project-wolf-hunting-2022.jpg";
+import EscapeFromMogadishu from "@/movie/escape-from-mogadishu.jpg";
+import TheUnityOfHeroes2018 from "@/movie/the-unity-of-heroes-2018.jpeg";
+import MissionImpossibleFallout from "@/movie/missing-impossible-fallout.jpg";
+import Plane2023 from "@/movie/plane-2023.jpg";
 import GangsOfWasseypur from "@/movie/gangs-of-wasseypur.jpg";
 import GangsOfWasseypurII from "@/movie/gangs-of-wasseypur-ii.jpg";
 import JohnWickChapter3 from "@/movie/john-wick-chapter-3.jpeg";
@@ -517,7 +548,131 @@ export const MOVIES = {
       name: "Gangs Of Wasseypur",
       img: GangsOfWasseypur,
     },
+    {
+      name: "Plane (2023)",
+      img: Plane2023,
+    },
+    {
+      name: "Mission: Impossible - Fallout",
+      img: MissionImpossibleFallout,
+    },
+    {
+      name: "The Unity of Heroes (2018)",
+      img: TheUnityOfHeroes2018,
+    },
+    {
+      name: "Escape from Mogadishu",
+      img: EscapeFromMogadishu,
+    },
+    {
+      name: "Project Wolf Hunting (2022)",
+      img: ProjectWolfHunting2022,
+    },
+    {
+      name: "The Da Vinci Code (2006)",
+      img: TheDaVinciCode2006,
+    },
+    {
+      name: "Rise of the Legend (2014)",
+      img: RiseOfTheLegend2014,
+    },
+    {
+      name: "Spotlight",
+      img: Spotlight,
+    },
+    {
+      name: "GodFather (2022)",
+      img: GodFather2022,
+    },
+    {
+      name: "The New Legend of Shaolin",
+      img: TheNewLegendOfShaolin,
+    },
+    {
+      name: "The Swimmers (2022)",
+      img: TheSwimmers2022,
+    },
+    {
+      name: "Wushu (2008)",
+      img: Wushu2008,
+    },
+    {
+      name: "The Fighter",
+      img: TheFighter,
+    },
+    {
+      name: "The Raid 2",
+      img: TheRaid2,
+    },
+    {
+      name: "Coach Carter (2005)",
+      img: CoachCarter2005,
+    },
+    {
+      name: "The Imitation Game",
+      img: TheImitationGame,
+    },
+    {
+      name: "The Outlaws (2017)",
+      img: TheOutlaws2017,
+    },
+    {
+      name: "K.G.F: Chapter 2",
+      img: KgfChapter2,
+    },
+    {
+      name: "Trust No One: The Hunt For The Crypto King",
+      img: TrustNoOneTheHunt,
+    },
 
+    {
+      name: "Rocky Balboa",
+      img: RockyBalboa,
+    },
+    {
+      name: "Rocky V (1990)",
+      img: RockyV1990,
+    },
+    {
+      name: "Rocky IV",
+      img: RockyIV,
+    },
+    {
+      name: "Sardar Udham",
+      img: SardarUdham,
+    },
+    {
+      name: "Jai Bhim",
+      img: JaiBhim,
+    },
+    {
+      name: "King Richard",
+      img: KingRichard,
+    },
+    {
+      name: "The Legend of Buddha (2004)",
+      img: TheLegendOfBuddha2004,
+    },
+    {
+      name: "Army of Thieves",
+      img: ArmyOfThieves,
+    },
+    {
+      name: "No Time to Die",
+      img: NoTimeToDie,
+    },
+    {
+      name: "Ip Man 4: The Finale",
+      img: IpMan4TheFinale,
+    },
+    {
+      name: "Ip Man (2008)",
+      img: IpMan2008,
+    },
+    {
+      name: "Halloween Kills",
+      img: HalloweenKills,
+    },
     {
       name: "Justin Bieber: Our World",
       img: JustinBieberOurWorld,
