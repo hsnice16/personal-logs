@@ -18,11 +18,11 @@
         "name": "next"
       }
     ],
-    "baseUrl": "src/",
+    "baseUrl": ".",
     "paths": {
-      "@/ui/*": ["app/ui/*"],
-      "@/constant/*": ["app/constant/*"],
-      "@/data/*": ["app/data/*"],
+      "@/ui/*": ["src/ui/*"],
+      "@/constant/*": ["src/constant/*"],
+      "@/data/*": ["src/data/*"],
       "@/book/*": ["public/book/*"],
       "@/icon/*": ["public/icon/*"]
     }
