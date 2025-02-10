@@ -1,4 +1,5 @@
-import MovieAside from "@/ui/movie-aside";
+import { MOVIES } from "@/data/movies";
+import Aside from "@/ui/aside";
 
 export const metadata = {
   title: "Movie",
@@ -12,7 +13,7 @@ export default function MovieLayout({
   return (
     <>
       {children}
-      <MovieAside />
+      <Aside keys={Object.keys(MOVIES)} />
     </>
   );
 }

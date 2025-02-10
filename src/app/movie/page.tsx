@@ -2,7 +2,7 @@ import { MOVIES } from "@/data/movies";
 import Movie from "@/ui/movie";
 import React from "react";
 
-export default async function Page() {
+export default function Page() {
   return (
     <div className="flex-1 pr-2 pb-4">
       {Object.keys(MOVIES).map((key) => {

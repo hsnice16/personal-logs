@@ -5,9 +5,10 @@
   --color-black-700: #585867;
 
   --color-brown-850: #5b4f41d9;
-
   --color-gray-100: #71717a;
+
   --color-primary: #486fdd;
+  --color-primary-100: #cddaff;
 }
 
 @utility movie-hover {
@@ -17,6 +18,10 @@
 
 @utility animate-typing {
   animation: typing 3s steps(20) infinite alternate, blink 3s infinite;
+}
+
+@utility anime-clip {
+  clip-path: polygon(4% 4%, 70% 8%, 98% 80%, 2% 100%);
 }
 
 @keyframes typing {

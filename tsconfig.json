@@ -25,7 +25,8 @@
       "@/data/*": ["src/data/*"],
       "@/book/*": ["public/book/*"],
       "@/icon/*": ["public/icon/*"],
-      "@/movie/*": ["public/movie/*"]
+      "@/movie/*": ["public/movie/*"],
+      "@/anime/*": ["public/anime/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],

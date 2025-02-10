@@ -15,6 +15,10 @@ const links = [
     href: "movie",
     label: "Movie",
   },
+  {
+    href: "anime",
+    label: "Anime",
+  },
 ];
 
 export default function MainNav() {
