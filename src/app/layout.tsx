@@ -9,6 +9,8 @@ import clsx from "clsx";
 import { Metadata } from "next";
 import { app } from "@/data/firebase";
 
+app;
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Personal Logs",
