@@ -3,13 +3,11 @@ import "./globals.css";
 
 import MainNav from "@/ui/main-nav";
 import MainHead from "@/ui/main-head";
-import { geist } from "@/constant/font";
+import FirebaseAnalytics from "@/component/firebase-analytics";
 
+import { geist } from "@/constant/font";
 import clsx from "clsx";
 import { Metadata } from "next";
-import { app } from "@/data/firebase";
-
-app;
 
 export const metadata: Metadata = {
   title: {
@@ -48,6 +46,7 @@ export default function RootLayout({
           "max-w-7xl min-h-screen m-auto text-black-900"
         )}
       >
+        <FirebaseAnalytics />
         <MainHead />
 
         <main className="flex w-full">
