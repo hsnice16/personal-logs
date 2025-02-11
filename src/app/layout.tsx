@@ -4,8 +4,10 @@ import "./globals.css";
 import MainNav from "@/ui/main-nav";
 import MainHead from "@/ui/main-head";
 import { geist } from "@/constant/font";
+
 import clsx from "clsx";
 import { Metadata } from "next";
+import { app } from "@/data/firebase";
 
 export const metadata: Metadata = {
   title: {
