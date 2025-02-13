@@ -40,16 +40,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={clsx(
-          geist.className,
-          "max-w-7xl min-h-screen m-auto text-black-900"
-        )}
-      >
+      <body className={clsx(geist.className, "min-h-screen text-black-900")}>
         <FirebaseAnalytics />
         <MainHead />
 
-        <main className="flex w-full">
+        <main className="max-w-7xl m-auto flex w-full">
           <MainNav />
           {children}
         </main>

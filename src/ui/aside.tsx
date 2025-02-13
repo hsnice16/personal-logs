@@ -13,7 +13,7 @@ export default function Aside({ keys }: AsideProps) {
             <Link
               href={"#" + key}
               key={key}
-              className="text-gray-100 mb-1 px-2 text-sm"
+              className="text-gray-100 mb-1 px-2 text-xs"
             >
               {key}
             </Link>
