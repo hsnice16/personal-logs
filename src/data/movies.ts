@@ -153,9 +153,14 @@ import TheBanker from "@/movie/the-banker.jpg";
 
 import Forgotten2017 from "@/movie/forgotten-2017.jpg";
 import PeleBirthOfALegend from "@/movie/pele-birth-of-a-legend.jpg";
+import TheDevilsAdvocate from "@/movie/the-devils-advocate.jpg";
 
 export const MOVIES = {
   "Feb '25": [
+    {
+      name: "The Devil's Advocate (1997)",
+      img: TheDevilsAdvocate,
+    },
     {
       name: "Pelé: Birth of a Legend (2016)",
       img: PeleBirthOfALegend,
