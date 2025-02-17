@@ -29,7 +29,8 @@
       "@/movie/*": ["public/movie/*"],
       "@/anime/*": ["public/anime/*"],
       "@/web-show/*": ["public/web-show/*"],
-      "@/writing/*": ["public/writing/*"]
+      "@/writing/*": ["public/writing/*"],
+      "@/product/*": ["public/product/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],

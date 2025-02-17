@@ -14,6 +14,10 @@ export const LINKS = {
       href: "book",
       label: "Book",
     },
+    {
+      href: "product",
+      label: "Product",
+    },
   ],
   2: [
     {
