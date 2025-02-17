@@ -4,8 +4,14 @@ import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import clsx from "clsx";
 import PaymentLink from "./payment-link";
-import { InstagramLogo, XLogo, MediumLogo } from "@phosphor-icons/react";
 import { LINKS } from "@/data/navs";
+
+import {
+  InstagramLogo,
+  XLogo,
+  MediumLogo,
+  YoutubeLogo,
+} from "@phosphor-icons/react";
 
 export default function MainNav() {
   const segment = useSelectedLayoutSegment();
@@ -60,6 +66,14 @@ export default function MainNav() {
           </div>
 
           <div className="flex justify-end items-center gap-2">
+            <a
+              href="https://www.youtube.com/@hsnice16"
+              target="_blank"
+              className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
+            >
+              <YoutubeLogo size={18} />
+            </a>
+
             <a
               href="https://www.instagram.com/hsnice16/"
               target="_blank"

@@ -1,22 +1,28 @@
 export const LINKS = {
   0: [
     {
+      href: "talk",
+      label: "Talk",
+    },
+    {
       href: "writing",
       label: "Writing",
     },
+  ],
+  1: [
     {
       href: "book",
       label: "Book",
     },
   ],
-  1: [
-    {
-      href: "movie",
-      label: "Movie",
-    },
+  2: [
     {
       href: "anime",
       label: "Anime",
+    },
+    {
+      href: "movie",
+      label: "Movie",
     },
     {
       href: "web-show",
