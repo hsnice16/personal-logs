@@ -154,9 +154,14 @@ import TheBanker from "@/movie/the-banker.jpg";
 import Forgotten2017 from "@/movie/forgotten-2017.jpg";
 import PeleBirthOfALegend from "@/movie/pele-birth-of-a-legend.jpg";
 import TheDevilsAdvocate from "@/movie/the-devils-advocate.jpg";
+import TheGreatDebaters2007 from "@/movie/the-great-debaters-2007.jpg";
 
 export const MOVIES = {
   "Feb '25": [
+    {
+      name: "The Great Debaters (2007)",
+      img: TheGreatDebaters2007,
+    },
     {
       name: "The Devil's Advocate (1997)",
       img: TheDevilsAdvocate,
