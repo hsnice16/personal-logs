@@ -156,7 +156,15 @@ import PeleBirthOfALegend from "@/movie/pele-birth-of-a-legend.jpg";
 import TheDevilsAdvocate from "@/movie/the-devils-advocate.jpg";
 import TheGreatDebaters2007 from "@/movie/the-great-debaters-2007.jpg";
 
+import TheDominator2019 from "@/movie/the-dominator-2019.jpg";
+
 export const MOVIES = {
+  "Mar '25": [
+    {
+      name: "The Dominator (2019)",
+      img: TheDominator2019,
+    },
+  ],
   "Feb '25": [
     {
       name: "The Great Debaters (2007)",
