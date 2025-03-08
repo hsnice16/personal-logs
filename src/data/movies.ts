@@ -157,9 +157,14 @@ import TheDevilsAdvocate from "@/movie/the-devils-advocate.jpg";
 import TheGreatDebaters2007 from "@/movie/the-great-debaters-2007.jpg";
 
 import TheDominator2019 from "@/movie/the-dominator-2019.jpg";
+import Hackers1995 from "@/movie/hackers-1995.jpg";
 
 export const MOVIES = {
   "Mar '25": [
+    {
+      name: "Hackers (1995)",
+      img: Hackers1995,
+    },
     {
       name: "The Dominator (2019)",
       img: TheDominator2019,
