@@ -37,7 +37,15 @@ import ASignOfAffection from "@/anime/a-sign-of-affection.jpg";
 
 import Free from "@/anime/free.jpg";
 
+import SoloLeveling from "@/anime/solo-leveling.jpg";
+
 export const ANIMES = {
+  "Mar '25": [
+    {
+      name: "Solo Leveling",
+      img: SoloLeveling,
+    },
+  ],
   "Feb '25": [
     {
       name: "Free!",
