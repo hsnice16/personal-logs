@@ -25,7 +25,16 @@ import HitchhikerGuideToGalaxy from "@/book/hitchhiker-guide-to-galaxy.jpg";
 import Meditations from "@/book/meditations.jpg";
 import ThinkAndGrowRich from "@/book/think-and-grow-rich.jpg";
 
+import Mindset from "@/book/minset.jpg";
+
 export const BOOKS = {
+  "Mar '25": [
+    {
+      name: "Mindset: Changing The Way You think To Fulfil Your Potential",
+      author: "Carol S. Dweck",
+      img: Mindset,
+    },
+  ],
   "Dec '24": [
     {
       name: "Think And Grow Rich",
