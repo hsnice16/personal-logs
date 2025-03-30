@@ -159,9 +159,14 @@ import TheGreatDebaters2007 from "@/movie/the-great-debaters-2007.jpg";
 import TheDominator2019 from "@/movie/the-dominator-2019.jpg";
 import Hackers1995 from "@/movie/hackers-1995.jpg";
 import TheChaser2008 from "@/movie/the-chaser-2008.jpg";
+import TwilightOfWarriorsWalledIn from "@/movie/twilight-of-warriors-walled-in.jpg";
 
 export const MOVIES = {
   "Mar '25": [
+    {
+      name: "Twilight of the Warriors: Walled In",
+      img: TwilightOfWarriorsWalledIn,
+    },
     {
       name: "The Chaser (2008)",
       img: TheChaser2008,
