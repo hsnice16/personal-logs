@@ -25,7 +25,16 @@ import TrackTokenPriceChangeOnSolana from "@/writing/track-token-price-change-on
 import DeployANodeJSAppOnEC2 from "@/writing/deploy-a-nodejs-app-on-ec2.png";
 import DesignAPerpetualTradingDappSystem from "@/writing/design-a-perpetual-trading-dapp-system.png";
 
+import TheRightWayToBuildTsSdk from "@/writing/the-right-way-to-build-ts-sdk.png";
+
 export const WRITINGS = {
+  "Apr '25": [
+    {
+      name: "the-right-way-to-build-a-typescript-sdk",
+      link: "https://hsnice16.medium.com/the-right-way-to-build-a-typescript-sdk-75657476bc95",
+      img: TheRightWayToBuildTsSdk,
+    },
+  ],
   "Jan '25": [
     {
       name: "design-a-perpetual-trading-dapp-system",
