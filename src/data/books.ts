@@ -27,7 +27,16 @@ import ThinkAndGrowRich from "@/book/think-and-grow-rich.jpg";
 
 import Mindset from "@/book/minset.jpg";
 
+import AmbedkarALife from "@/book/ambedkar-a-life.jpg";
+
 export const BOOKS = {
+  "Apr '25": [
+    {
+      name: "Ambedkar: A Life",
+      author: "Shashi Tharoor",
+      img: AmbedkarALife,
+    },
+  ],
   "Mar '25": [
     {
       name: "Mindset: Changing The Way You think To Fulfil Your Potential",
