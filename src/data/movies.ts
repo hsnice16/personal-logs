@@ -161,7 +161,15 @@ import Hackers1995 from "@/movie/hackers-1995.jpg";
 import TheChaser2008 from "@/movie/the-chaser-2008.jpg";
 import TwilightOfWarriorsWalledIn from "@/movie/twilight-of-warriors-walled-in.jpg";
 
+import AWorkingMan from "@/movie/a-working-man.jpg";
+
 export const MOVIES = {
+  "Apr '25": [
+    {
+      name: "A Working Man",
+      img: AWorkingMan,
+    },
+  ],
   "Mar '25": [
     {
       name: "Twilight of the Warriors: Walled In",
