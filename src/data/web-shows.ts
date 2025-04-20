@@ -33,7 +33,10 @@ import ItaewonClass from "@/web-show/itaewon-class.webp";
 
 import WeekHeroClassOne from "@/web-show/week-hero-class-one.jpg";
 
+import TheLastOfUs from "@/web-show/the-last-of-us.jpg";
+
 export const WEB_SHOWS = {
+  "Apr '25": [{ img: TheLastOfUs }],
   "Mar '25": [{ img: WeekHeroClassOne }],
   Previous: [
     {
