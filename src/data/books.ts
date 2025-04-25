@@ -28,9 +28,15 @@ import ThinkAndGrowRich from "@/book/think-and-grow-rich.jpg";
 import Mindset from "@/book/minset.jpg";
 
 import AmbedkarALife from "@/book/ambedkar-a-life.jpg";
+import LittleBookOfCommonSenseInvesting from "@/book/little-book-of-common-sense-investing.jpg";
 
 export const BOOKS = {
   "Apr '25": [
+    {
+      name: "The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns",
+      author: "John C. Bogle",
+      img: LittleBookOfCommonSenseInvesting,
+    },
     {
       name: "Ambedkar: A Life",
       author: "Shashi Tharoor",
