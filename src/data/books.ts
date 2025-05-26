@@ -31,9 +31,15 @@ import AmbedkarALife from "@/book/ambedkar-a-life.jpg";
 import LittleBookOfCommonSenseInvesting from "@/book/little-book-of-common-sense-investing.jpg";
 
 import TheTopFiveRegretsOfTheDying from "@/book/the-top-five-regrets-of-the-dying.jpg";
+import TheComfortCrisis from "@/book/the-comfort-crisis.jpg";
 
 export const BOOKS = {
   "May '25": [
+    {
+      name: "The Comfort Crisis: Embrace Discomfort To Reclaim Your Wild, Happy, Healthy Self",
+      author: "Michael Easter",
+      img: TheComfortCrisis,
+    },
     {
       name: "The Top Five Regrets of the Dying: A Life Transformed by the Dearly Departing",
       author: "Bronnie Ware",
