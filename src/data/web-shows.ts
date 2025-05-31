@@ -37,7 +37,14 @@ import TheLastOfUs from "@/web-show/the-last-of-us.jpg";
 import WeekHeroClassTwo from "@/web-show/week-hero-class-two.jpg";
 import TwentyFiveTwentyOne from "@/web-show/twenty-five-twenty-one.webp";
 
+import Vincenzo from "@/web-show/vincenzo.jpg";
+
 export const WEB_SHOWS = {
+  "May '25": [
+    {
+      img: Vincenzo,
+    },
+  ],
   "Apr '25": [
     {
       img: TwentyFiveTwentyOne,
