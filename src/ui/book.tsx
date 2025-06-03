@@ -18,6 +18,7 @@ export default function Book({ book }: BookProps) {
                 href={provider.link}
                 target="_blank"
                 className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700 z-10 hover:[&_img]:animate-pendulum"
+                key={provider.link}
               >
                 <Image
                   src={provider.img}

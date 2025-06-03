@@ -1,18 +1,22 @@
 export const LINKS = {
   0: [
     {
-      href: "talk",
-      label: "Talk",
+      href: "book",
+      label: "Book",
     },
     {
       href: "writing",
       label: "Writing",
     },
+    {
+      href: "code-playlist",
+      label: "Code Playlist",
+    },
   ],
   1: [
     {
-      href: "book",
-      label: "Book",
+      href: "talk",
+      label: "Talk",
     },
     {
       href: "product",
