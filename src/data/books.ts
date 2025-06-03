@@ -33,17 +33,22 @@ import LittleBookOfCommonSenseInvesting from "@/book/little-book-of-common-sense
 import TheTopFiveRegretsOfTheDying from "@/book/the-top-five-regrets-of-the-dying.jpg";
 import TheComfortCrisis from "@/book/the-comfort-crisis.jpg";
 
+// Providers
+import AmazonLogo from "@/logo/amazon.svg";
+
 export const BOOKS = {
   "May '25": [
     {
       name: "The Comfort Crisis: Embrace Discomfort To Reclaim Your Wild, Happy, Healthy Self",
       author: "Michael Easter",
       img: TheComfortCrisis,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43KeXvW" }],
     },
     {
       name: "The Top Five Regrets of the Dying: A Life Transformed by the Dearly Departing",
       author: "Bronnie Ware",
       img: TheTopFiveRegretsOfTheDying,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/458lRgW" }],
     },
   ],
   "Apr '25": [
@@ -51,11 +56,13 @@ export const BOOKS = {
       name: "The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns",
       author: "John C. Bogle",
       img: LittleBookOfCommonSenseInvesting,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kTDE05" }],
     },
     {
       name: "Ambedkar: A Life",
       author: "Shashi Tharoor",
       img: AmbedkarALife,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kjJRCx" }],
     },
   ],
   "Mar '25": [
@@ -63,18 +70,21 @@ export const BOOKS = {
       name: "Mindset: Changing The Way You think To Fulfil Your Potential",
       author: "Carol S. Dweck",
       img: Mindset,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3SzkLmT" }],
     },
   ],
   "Dec '24": [
     {
-      name: "Think And Grow Rich",
+      name: "Think And Grow Rich: The Secret to Freedom and Success",
       author: "Napoleon Hill",
       img: ThinkAndGrowRich,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/452pgOk" }],
     },
     {
       name: "Meditations",
       author: "Marcus Aurelius",
       img: Meditations,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3FHOmrm" }],
     },
   ],
   Previous: [
@@ -82,38 +92,45 @@ export const BOOKS = {
       name: "The Ultimate Hitchhiker's Guide to the Galaxy",
       author: "Douglas Adams",
       img: HitchhikerGuideToGalaxy,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3ZNLVdA" }],
     },
     {
       name: "The Almanack Of Naval Ravikant: A Guide to Wealth and Happiness",
       author: "Eric Jorgenson",
       img: TheAlmanack,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3ZeU8Yg" }],
     },
     {
       name: "The Rust Programming Language",
       author:
         "Steve Klabnik and Carol Nichols, with contributions from the Rust Community",
       img: TheRustProgrammingLang,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43pYwpO" }],
     },
     {
       name: "You Don't Know JS Yet - Scope & Closures",
       author: "Kyle Simpson",
       img: YouDontKnowJsSAndC,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3ZaMWML" }],
     },
     {
       name: "You Don't Know JS Yet - Get Started",
       author: "Kyle Simpson",
       img: YouDontKnowJsGS,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kLn42b" }],
     },
     {
       name: "Show Your Work",
       author: "Austin Kleon",
       img: ShowYourWork,
       shape: "square",
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4dLROOd" }],
     },
     {
       name: "Ego Is the Enemy",
       author: "Ryan Holiday",
       img: EgoIsTheEnemy,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4mK5Xjf" }],
     },
     {
       name: "Refactoring UI",
@@ -124,11 +141,13 @@ export const BOOKS = {
       name: "One up on Wall Street: How to Use What You Already Know to Make Money in the Market",
       author: "Peter Lynch",
       img: OneUpOnWallStreet,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kvJq8q" }],
     },
     {
       name: "The Innovators",
       author: "Walter Isaacson",
       img: TheInnovators,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4mKdqPh" }],
     },
     {
       name: "The Standout Developer",
@@ -139,6 +158,7 @@ export const BOOKS = {
       name: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
       author: "James Clear",
       img: AtomicHabits,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3Hpzezn" }],
     },
     {
       name: "The Productive Professional",
@@ -148,6 +168,7 @@ export const BOOKS = {
       name: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
       author: "Morgan Housel",
       img: ThePsychologyOfMoney,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/3ZLVFVK" }],
     },
     {
       name: "Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone",
@@ -159,46 +180,55 @@ export const BOOKS = {
       name: "The Subtle Art of Not Giving a F*ck",
       author: "Mark Manson",
       img: TheSubtleArtOfNotGivingAFuck,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kjK88s" }],
     },
     {
       name: "Steve Jobs",
       author: "Walter Isaacson",
       img: SteveJobs,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43FRBrm" }],
     },
     {
       name: "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
       author: "Marijn Haverbeke",
       img: EloquentJavaScript,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4jvm2q8" }],
     },
     {
       name: "Think Like a Monk",
       author: "Jay Shetty",
       img: ThinkLikeAMonk,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43zLx3u" }],
     },
     {
       name: "The Simple Path to Wealth: Your Road Map to Financial Independence and a Rich, Free Life",
       author: "J. L. Collins",
       img: TheSimplePathToWealth,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4juHk79" }],
     },
     {
       name: "Rich Dad, Poor Dad",
       author: "Robert Kiyosaki",
       img: RichDadPoorDad,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4krt2Wo" }],
     },
     {
       name: "Life's Amazing Secrets",
       author: "Gaur Gopal Das",
       img: LifesAmazingSecrets,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43p99t0" }],
     },
     {
       name: "Super Thinking: The Big Book of Mental Models",
       author: "Gabriel Weinberg and Lauren McCann",
       img: SuperThinking,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43qlJrV" }],
     },
     {
       name: "Outliers",
       author: "Malcolm Gladwell",
       img: Outliers,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/43V0Zst" }],
     },
   ],
 };

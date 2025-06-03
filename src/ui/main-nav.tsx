@@ -59,7 +59,7 @@ export default function MainNav() {
             <a
               href="https://x.com/hsnice16"
               target="_blank"
-              className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
+              className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
               <XLogo size={18} />
             </a>
@@ -69,7 +69,7 @@ export default function MainNav() {
             <a
               href="https://www.youtube.com/@hsnice16"
               target="_blank"
-              className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
+              className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
               <YoutubeLogo size={18} />
             </a>
@@ -77,7 +77,7 @@ export default function MainNav() {
             <a
               href="https://www.instagram.com/hsnice16/"
               target="_blank"
-              className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
+              className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
               <InstagramLogo size={18} />
             </a>
@@ -85,7 +85,7 @@ export default function MainNav() {
             <a
               href="https://hsnice16.medium.com/"
               target="_blank"
-              className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
+              className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
               <MediumLogo size={18} />
             </a>
