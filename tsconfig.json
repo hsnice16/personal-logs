@@ -30,7 +30,8 @@
       "@/anime/*": ["public/anime/*"],
       "@/web-show/*": ["public/web-show/*"],
       "@/writing/*": ["public/writing/*"],
-      "@/product/*": ["public/product/*"]
+      "@/product/*": ["public/product/*"],
+      "@/logo/*": ["public/logo/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],

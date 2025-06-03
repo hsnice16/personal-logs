@@ -10,6 +10,28 @@ type BookProps = {
 export default function Book({ book }: BookProps) {
   return (
     <div className="rounded-md bg-neutral-50 flex-1 flex justify-center items-center relative">
+      {book.providers?.length ? (
+        <div className="absolute top-0 right-0 flex flex-col p-4 gap-2">
+          {book.providers.map((provider) => {
+            return (
+              <a
+                href={provider.link}
+                target="_blank"
+                className="flex text-sm gap-1 items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700 z-10 hover:[&_img]:animate-pendulum"
+              >
+                <Image
+                  src={provider.img}
+                  alt=""
+                  width={20}
+                  height={20}
+                  className="opacity-75"
+                />
+              </a>
+            );
+          })}
+        </div>
+      ) : null}
+
       <div className="relative w-[240px] h-[240px]">
         <Image src={bookCover} alt="book-cover" />
 
