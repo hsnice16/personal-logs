@@ -17,9 +17,9 @@ export default function MainNav() {
   const segment = useSelectedLayoutSegment();
 
   return (
-    <nav className="w-3xs pt-6 h-full">
+    <nav className="sm:w-[192px] lg:w-3xs pt-6 h-full">
       <div className="flex flex-col fixed justify-between">
-        <div>
+        <div className="sm:ml-[8px] lg:ml-0">
           <p className="mb-2 rounded-md px-2 py-1 text-base font-semibold text-black-700">
             Page
           </p>

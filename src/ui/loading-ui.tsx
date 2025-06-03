@@ -21,7 +21,7 @@ export default function LoadingUI() {
       <div className="flex flex-col">
         <div className="h-6 rounded-md bg-neutral-100 w-[128px] mb-6 mt-8" />
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap">
           {new Array(3).fill("0").map((value, index) => {
             return (
               <div
