@@ -163,7 +163,15 @@ import TwilightOfWarriorsWalledIn from "@/movie/twilight-of-warriors-walled-in.j
 
 import AWorkingMan from "@/movie/a-working-man.jpg";
 
+import TheAccountant from "@/movie/the-accountant.jpg";
+
 export const MOVIES = {
+  "Jun '25": [
+    {
+      name: "The Accountant (2016)",
+      img: TheAccountant,
+    },
+  ],
   "Apr '25": [
     {
       name: "A Working Man",
