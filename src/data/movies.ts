@@ -164,9 +164,14 @@ import TwilightOfWarriorsWalledIn from "@/movie/twilight-of-warriors-walled-in.j
 import AWorkingMan from "@/movie/a-working-man.jpg";
 
 import TheAccountant from "@/movie/the-accountant.jpg";
+import TheAccountantTwo from "@/movie/the-accountant-two.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "The Accountant 2 (2025)",
+      img: TheAccountantTwo,
+    },
     {
       name: "The Accountant (2016)",
       img: TheAccountant,
