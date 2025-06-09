@@ -33,10 +33,20 @@ import LittleBookOfCommonSenseInvesting from "@/book/little-book-of-common-sense
 import TheTopFiveRegretsOfTheDying from "@/book/the-top-five-regrets-of-the-dying.jpg";
 import TheComfortCrisis from "@/book/the-comfort-crisis.jpg";
 
+import DesigningDataIntensiveApplication from "@/book/designing-data-intensive-application.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
 export const BOOKS = {
+  "Jun '25": [
+    {
+      name: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+      author: "Martin Kleppmann",
+      img: DesigningDataIntensiveApplication,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4kRQ7Bb" }],
+    },
+  ],
   "May '25": [
     {
       name: "The Comfort Crisis: Embrace Discomfort To Reclaim Your Wild, Happy, Healthy Self",
