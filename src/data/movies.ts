@@ -165,9 +165,14 @@ import AWorkingMan from "@/movie/a-working-man.jpg";
 
 import TheAccountant from "@/movie/the-accountant.jpg";
 import TheAccountantTwo from "@/movie/the-accountant-two.jpg";
+import ClownInACronfield2025 from "@/movie/clown-in-a-cronfield-2025.jpeg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "Clown in a Cornfield (2025)",
+      img: ClownInACronfield2025,
+    },
     {
       name: "The Accountant 2 (2025)",
       img: TheAccountantTwo,
