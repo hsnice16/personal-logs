@@ -166,9 +166,14 @@ import AWorkingMan from "@/movie/a-working-man.jpg";
 import TheAccountant from "@/movie/the-accountant.jpg";
 import TheAccountantTwo from "@/movie/the-accountant-two.jpg";
 import ClownInACronfield2025 from "@/movie/clown-in-a-cronfield-2025.jpeg";
+import Chime2024 from "@/movie/chime-2024.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "Chime (2024)",
+      img: Chime2024,
+    },
     {
       name: "Clown in a Cornfield (2025)",
       img: ClownInACronfield2025,
