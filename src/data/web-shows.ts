@@ -39,7 +39,14 @@ import TwentyFiveTwentyOne from "@/web-show/twenty-five-twenty-one.webp";
 
 import Vincenzo from "@/web-show/vincenzo.jpg";
 
+import MercyForNone from "@/web-show/mercy-for-none.jpg";
+
 export const WEB_SHOWS = {
+  "Jun '25": [
+    {
+      img: MercyForNone,
+    },
+  ],
   "May '25": [
     {
       img: Vincenzo,
