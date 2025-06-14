@@ -168,9 +168,14 @@ import TheAccountantTwo from "@/movie/the-accountant-two.jpg";
 import ClownInACronfield2025 from "@/movie/clown-in-a-cronfield-2025.jpeg";
 import Chime2024 from "@/movie/chime-2024.jpg";
 import TheAmateur2025 from "@/movie/the-amateur-2025.jpg";
+import WinterSpringSummerOrFall from "@/movie/winter-spring-summer-or-fall.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "Winter Spring Summer or Fall (2024)",
+      img: WinterSpringSummerOrFall,
+    },
     {
       name: "The Amateur (2025)",
       img: TheAmateur2025,
