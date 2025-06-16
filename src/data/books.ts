@@ -41,6 +41,10 @@ import AmazonLogo from "@/logo/amazon.svg";
 export const BOOKS = {
   "Jun '25": [
     {
+      name: "The Little Go Book",
+      author: "Karl Seguin",
+    },
+    {
       name: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
       author: "Martin Kleppmann",
       img: DesigningDataIntensiveApplication,
