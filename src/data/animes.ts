@@ -40,7 +40,15 @@ import Free from "@/anime/free.jpg";
 import SoloLeveling from "@/anime/solo-leveling.jpg";
 import Orange from "@/anime/orange.jpg";
 
+import Aoashi from "@/anime/aoashi.jpg";
+
 export const ANIMES = {
+  "Jun '25": [
+    {
+      name: "Aoashi",
+      img: Aoashi,
+    },
+  ],
   "Mar '25": [
     {
       name: "Orange",

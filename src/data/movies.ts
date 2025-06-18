@@ -169,9 +169,14 @@ import ClownInACronfield2025 from "@/movie/clown-in-a-cronfield-2025.jpeg";
 import Chime2024 from "@/movie/chime-2024.jpg";
 import TheAmateur2025 from "@/movie/the-amateur-2025.jpg";
 import WinterSpringSummerOrFall from "@/movie/winter-spring-summer-or-fall.jpg";
+import FinalDestinationBloodlines from "@/movie/final-destination-bloodlines.jpeg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "Final Destination Bloodlines",
+      img: FinalDestinationBloodlines,
+    },
     {
       name: "Winter Spring Summer or Fall (2024)",
       img: WinterSpringSummerOrFall,
