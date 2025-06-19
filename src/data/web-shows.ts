@@ -40,9 +40,13 @@ import TwentyFiveTwentyOne from "@/web-show/twenty-five-twenty-one.webp";
 import Vincenzo from "@/web-show/vincenzo.jpg";
 
 import MercyForNone from "@/web-show/mercy-for-none.jpg";
+import GoodBoy from "@/web-show/good-boy.jpg";
 
 export const WEB_SHOWS = {
   "Jun '25": [
+    {
+      img: GoodBoy,
+    },
     {
       img: MercyForNone,
     },
