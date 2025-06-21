@@ -170,9 +170,14 @@ import Chime2024 from "@/movie/chime-2024.jpg";
 import TheAmateur2025 from "@/movie/the-amateur-2025.jpg";
 import WinterSpringSummerOrFall from "@/movie/winter-spring-summer-or-fall.jpg";
 import FinalDestinationBloodlines from "@/movie/final-destination-bloodlines.jpeg";
+import EmergencyDeclaration2021 from "@/movie/emergency-declaration-2021.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "Emergency Declaration (2021)",
+      img: EmergencyDeclaration2021,
+    },
     {
       name: "Final Destination Bloodlines",
       img: FinalDestinationBloodlines,
