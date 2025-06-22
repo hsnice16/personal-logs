@@ -171,9 +171,14 @@ import TheAmateur2025 from "@/movie/the-amateur-2025.jpg";
 import WinterSpringSummerOrFall from "@/movie/winter-spring-summer-or-fall.jpg";
 import FinalDestinationBloodlines from "@/movie/final-destination-bloodlines.jpeg";
 import EmergencyDeclaration2021 from "@/movie/emergency-declaration-2021.jpg";
+import TheMonkey2025 from "@/movie/the-monkey-2025.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "The Monkey (2025)",
+      img: TheMonkey2025,
+    },
     {
       name: "Emergency Declaration (2021)",
       img: EmergencyDeclaration2021,
