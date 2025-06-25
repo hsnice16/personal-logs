@@ -172,9 +172,14 @@ import WinterSpringSummerOrFall from "@/movie/winter-spring-summer-or-fall.jpg";
 import FinalDestinationBloodlines from "@/movie/final-destination-bloodlines.jpeg";
 import EmergencyDeclaration2021 from "@/movie/emergency-declaration-2021.jpg";
 import TheMonkey2025 from "@/movie/the-monkey-2025.jpg";
+import AboutTime2013 from "@/movie/about-time-2013.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "About Time (2013)",
+      img: AboutTime2013,
+    },
     {
       name: "The Monkey (2025)",
       img: TheMonkey2025,

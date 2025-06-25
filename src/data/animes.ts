@@ -41,9 +41,14 @@ import SoloLeveling from "@/anime/solo-leveling.jpg";
 import Orange from "@/anime/orange.jpg";
 
 import Aoashi from "@/anime/aoashi.jpg";
+import Sk8TheInfinity from "@/anime/sk8-the-infinity.jpg";
 
 export const ANIMES = {
   "Jun '25": [
+    {
+      name: "SK8 the Infinity",
+      img: Sk8TheInfinity,
+    },
     {
       name: "Aoashi",
       img: Aoashi,
