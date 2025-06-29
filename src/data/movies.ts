@@ -173,9 +173,14 @@ import FinalDestinationBloodlines from "@/movie/final-destination-bloodlines.jpe
 import EmergencyDeclaration2021 from "@/movie/emergency-declaration-2021.jpg";
 import TheMonkey2025 from "@/movie/the-monkey-2025.jpg";
 import AboutTime2013 from "@/movie/about-time-2013.jpg";
+import TheSecretLifeOfWalterMitty2013 from "@/movie/the-secret-life-of-walter-mitty-2013.jpg";
 
 export const MOVIES = {
   "Jun '25": [
+    {
+      name: "The Secret Life of Walter Mitty (2013)",
+      img: TheSecretLifeOfWalterMitty2013,
+    },
     {
       name: "About Time (2013)",
       img: AboutTime2013,
