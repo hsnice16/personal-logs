@@ -175,7 +175,15 @@ import TheMonkey2025 from "@/movie/the-monkey-2025.jpg";
 import AboutTime2013 from "@/movie/about-time-2013.jpg";
 import TheSecretLifeOfWalterMitty2013 from "@/movie/the-secret-life-of-walter-mitty-2013.jpg";
 
+import BringHerBack2025 from "@/movie/bring-her-back-2025.jpg";
+
 export const MOVIES = {
+  "Jul '25": [
+    {
+      name: "Bring Her Back (2025)",
+      img: BringHerBack2025,
+    },
+  ],
   "Jun '25": [
     {
       name: "The Secret Life of Walter Mitty (2013)",
