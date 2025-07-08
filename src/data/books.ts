@@ -35,10 +35,20 @@ import TheComfortCrisis from "@/book/the-comfort-crisis.jpg";
 
 import DesigningDataIntensiveApplication from "@/book/designing-data-intensive-application.jpg";
 
+import MasteringGoSecondEdition from "@/book/mastering-go-second-edition.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
 export const BOOKS = {
+  "Jul '25": [
+    {
+      name: "Mastering Go - Second Edition: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures",
+      author: "Mihalis Tsoukalos",
+      img: MasteringGoSecondEdition,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4nA5JLN" }],
+    },
+  ],
   "Jun '25": [
     {
       name: "The Little Go Book",
