@@ -176,9 +176,14 @@ import AboutTime2013 from "@/movie/about-time-2013.jpg";
 import TheSecretLifeOfWalterMitty2013 from "@/movie/the-secret-life-of-walter-mitty-2013.jpg";
 
 import BringHerBack2025 from "@/movie/bring-her-back-2025.jpg";
+import BleedForThis2016 from "@/movie/bleed-for-this-2016.jpg";
 
 export const MOVIES = {
   "Jul '25": [
+    {
+      name: "Bleed for This (2016)",
+      img: BleedForThis2016,
+    },
     {
       name: "Bring Her Back (2025)",
       img: BringHerBack2025,
