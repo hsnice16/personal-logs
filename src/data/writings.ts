@@ -27,7 +27,16 @@ import DesignAPerpetualTradingDappSystem from "@/writing/design-a-perpetual-trad
 
 import TheRightWayToBuildTsSdk from "@/writing/the-right-way-to-build-ts-sdk.png";
 
+import CompilationOfMasteringGo from "@/writing/compilation-of-mastering-go.png";
+
 export const WRITINGS = {
+  "Jul '25": [
+    {
+      name: "compilation-of-mastering-go",
+      link: "https://hsnice16.medium.com/compilation-of-mastering-go-2d48cebaebed",
+      img: CompilationOfMasteringGo,
+    },
+  ],
   "Apr '25": [
     {
       name: "the-right-way-to-build-a-typescript-sdk",
