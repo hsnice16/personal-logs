@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 import Riverdale from "@/web-show/riverdale.jpg";
 import TheBigBangTheory from "@/web-show/the-big-bang-theory.jpg";
 import TheVampireDiaries from "@/web-show/the-vampire-diaries.jpg";
@@ -43,7 +45,11 @@ import MercyForNone from "@/web-show/mercy-for-none.jpg";
 import GoodBoy from "@/web-show/good-boy.jpg";
 import AllOfUsAreDead from "@/web-show/all-of-us-are-dead.jpg";
 
-export const WEB_SHOWS = {
+export type WebShow = {
+  img: StaticImageData;
+};
+
+export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Jul '25": [
     {
       img: AllOfUsAreDead,

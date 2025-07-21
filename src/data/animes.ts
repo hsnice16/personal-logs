@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 import InazumaEleven from "@/anime/inazuma-eleven.webp";
 import Naruto from "@/anime/naruto.jpg";
 import BorutoNarutoNextGenerations from "@/anime/boruto-naruto-next-generations.jpg";
@@ -43,7 +45,13 @@ import Orange from "@/anime/orange.jpg";
 import Aoashi from "@/anime/aoashi.jpg";
 import Sk8TheInfinity from "@/anime/sk8-the-infinity.jpg";
 
-export const ANIMES = {
+export type Anime = {
+  name: string;
+  img: StaticImageData;
+  shape?: "square";
+};
+
+export const ANIMES: { [key: string]: Anime[] } = {
   "Jun '25": [
     {
       name: "SK8 the Infinity",

@@ -1,10 +1,10 @@
 import bookCover from "@/icon/book-cover.webp";
-import { BOOKS } from "@/data/books";
+import type { Book as TBook } from "@/data/books";
 import Image from "next/image";
 import clsx from "clsx";
 
 type BookProps = {
-  book: (typeof BOOKS)["Previous"][0];
+  book: TBook;
 };
 
 export default function Book({ book }: BookProps) {

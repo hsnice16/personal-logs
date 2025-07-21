@@ -1,8 +1,8 @@
-import { WRITINGS } from "@/data/writings";
+import type { Writing as TWriting } from "@/data/writings";
 import Image from "next/image";
 
 type WritingProps = {
-  writing: (typeof WRITINGS)["Previous"][0];
+  writing: TWriting;
 };
 
 export default function Writing({ writing }: WritingProps) {

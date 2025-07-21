@@ -1,7 +1,7 @@
-import { TALKS } from "@/data/talks";
+import type { Talk as TTalk } from "@/data/talks";
 
 type TalkProps = {
-  talk: (typeof TALKS)["Apr '24"][0];
+  talk: TTalk;
 };
 
 export default function Talk({ talk }: TalkProps) {

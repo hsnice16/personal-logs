@@ -1,4 +1,10 @@
-export const TALKS = {
+import { JSX } from "react";
+
+export type Talk = {
+  frameElement: JSX.Element;
+};
+
+export const TALKS: { [key: string]: Talk[] } = {
   "Apr '24": [
     {
       frameElement: (

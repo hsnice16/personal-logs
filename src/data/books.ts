@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 import Outliers from "@/book/outliers.jpg";
 import SuperThinking from "@/book/super-thinking.jpg";
 import LifesAmazingSecrets from "@/book/lifes-amazing-secrets.jpg";
@@ -40,7 +42,21 @@ import MasteringGoSecondEdition from "@/book/mastering-go-second-edition.jpg";
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
-export const BOOKS = {
+export type Provider = {
+  img: StaticImageData;
+  link: string;
+};
+
+export type Book = {
+  name: string;
+  author: string;
+  img?: StaticImageData;
+  providers?: Provider[];
+  shape?: "square";
+  tags?: string[];
+};
+
+export const BOOKS: { [key: string]: Book[] } = {
   "Jul '25": [
     {
       name: "Mastering Go - Second Edition: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures",

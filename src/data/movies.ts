@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 import Infinite from "@/movie/infinite.jpeg";
 import TheLittleThings from "@/movie/the-little-things.jpg";
 import CasinoRoyale from "@/movie/casino-royale.webp";
@@ -180,10 +182,15 @@ import BleedForThis2016 from "@/movie/bleed-for-this-2016.jpg";
 import KarateKidLegends from "@/movie/karate-kid-legends.jpg";
 import BraveCitizen2023 from "@/movie/brave-citizen-2023.jpg";
 
-export const MOVIES = {
+export type Movie = {
+  name: string;
+  img: StaticImageData;
+};
+
+export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '25": [
     {
-      image: "Brave Citizen (2023)",
+      name: "Brave Citizen (2023)",
       img: BraveCitizen2023,
     },
     {

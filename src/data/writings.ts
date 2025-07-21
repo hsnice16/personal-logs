@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 import CSRFWebSecurityThreat from "@/writing/csrf-web-security-threat.png";
 import SneakPeekIntoHTMLParsing from "@/writing/sneak-peek-into-html-parsing.png";
 import WebAccessibilityA11y from "@/writing/web-accessibility-a11y.png";
@@ -29,7 +31,13 @@ import TheRightWayToBuildTsSdk from "@/writing/the-right-way-to-build-ts-sdk.png
 
 import CompilationOfMasteringGo from "@/writing/compilation-of-mastering-go.png";
 
-export const WRITINGS = {
+export type Writing = {
+  name: string;
+  link: string;
+  img: StaticImageData;
+};
+
+export const WRITINGS: { [key: string]: Writing[] } = {
   "Jul '25": [
     {
       name: "compilation-of-mastering-go",

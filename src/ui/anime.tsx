@@ -1,10 +1,10 @@
-import { ANIMES } from "@/data/animes";
+import type { Anime as TAnime } from "@/data/animes";
 import Image from "next/image";
 import animeCd from "@/icon/anime-cd.png";
 import clsx from "clsx";
 
 type AnimeProps = {
-  anime: (typeof ANIMES)["Previous"][0];
+  anime: TAnime;
 };
 
 export default function Anime({ anime }: AnimeProps) {

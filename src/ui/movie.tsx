@@ -1,10 +1,10 @@
 import moviePoster from "@/icon/movie-poster.png";
-import { MOVIES } from "@/data/movies";
+import type { Movie as TMovie } from "@/data/movies";
 import Image from "next/image";
 import clsx from "clsx";
 
 type MovieProps = {
-  movie: (typeof MOVIES)["Previous"][0];
+  movie: TMovie;
 };
 
 export default function Movie({ movie }: MovieProps) {

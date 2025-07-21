@@ -1,12 +1,12 @@
 "use client";
 
-import { PRODUCTS } from "@/data/products";
+import type { Product as TProduct } from "@/data/products";
 import Image from "next/image";
 import ProductLogo from "@/product/product-logo.webp";
 import { Link } from "@phosphor-icons/react";
 
 type ProductProps = {
-  product: (typeof PRODUCTS)["Aug '24"][0];
+  product: TProduct;
 };
 
 export default function Product({ product }: ProductProps) {

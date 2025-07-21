@@ -1,7 +1,7 @@
-import { CODE_PLAYLISTS } from "@/data/code-playlists";
+import type { CodePlaylist as TCodePlaylist } from "@/data/code-playlists";
 
 type CodePlaylistProps = {
-  codePlaylist: (typeof CODE_PLAYLISTS)["Apr '25"][0];
+  codePlaylist: TCodePlaylist;
 };
 
 export default function CodePlaylist({ codePlaylist }: CodePlaylistProps) {

@@ -1,8 +1,8 @@
-import { WEB_SHOWS } from "@/data/web-shows";
+import type { WebShow as TWebShow } from "@/data/web-shows";
 import Image from "next/image";
 
 type WebShowProps = {
-  webShow: (typeof WEB_SHOWS)["Previous"][0];
+  webShow: TWebShow;
 };
 
 export default function WebShow({ webShow }: WebShowProps) {
