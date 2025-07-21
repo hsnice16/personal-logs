@@ -19,7 +19,7 @@ export default function Page() {
 
             <div className="flex flex-wrap items-center gap-4">
               {entries.map((product) => {
-                return <Product product={product} key={product} />;
+                return <Product product={product} key={product.name} />;
               })}
             </div>
           </React.Fragment>
