@@ -178,9 +178,14 @@ import TheSecretLifeOfWalterMitty2013 from "@/movie/the-secret-life-of-walter-mi
 import BringHerBack2025 from "@/movie/bring-her-back-2025.jpg";
 import BleedForThis2016 from "@/movie/bleed-for-this-2016.jpg";
 import KarateKidLegends from "@/movie/karate-kid-legends.jpg";
+import BraveCitizen2023 from "@/movie/brave-citizen-2023.jpg";
 
 export const MOVIES = {
   "Jul '25": [
+    {
+      image: "Brave Citizen (2023)",
+      img: BraveCitizen2023,
+    },
     {
       name: "Karate Kid: Legends",
       img: KarateKidLegends,

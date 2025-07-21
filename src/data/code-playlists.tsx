@@ -1,4 +1,19 @@
 export const CODE_PLAYLISTS = {
+  "Jul '25": [
+    {
+      frameElement: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?si=4mdl0AlQeup6zM7e&amp;list=PLj8MD51SiJ3ojgzg28dbuTtsX6WCuOJoB"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      ),
+    },
+  ],
   "May '25": [
     {
       frameElement: (
