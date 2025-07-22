@@ -24,9 +24,10 @@ export default function MainHead() {
         </div>
       </div>
 
-      {showMobileNav ? (
-        <MobileNav closeNav={() => setShowMobileNav(false)} />
-      ) : null}
+      <MobileNav
+        show={showMobileNav}
+        closeNav={() => setShowMobileNav(false)}
+      />
     </>
   );
 }

@@ -45,6 +45,7 @@ export default function NavPageLinks({ closeNav }: NavPageLinksProps) {
                         "text-gray-100": !isActive,
                       }
                     )}
+                    onClick={closeNav}
                   >
                     {link.label}
                   </Link>
