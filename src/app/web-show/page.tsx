@@ -1,23 +1,23 @@
-import { WEB_SHOWS } from "@/data/web-shows";
-import WebShow from "@/ui/web-show";
 import React from "react";
+
+import { WEB_SHOWS } from "@/data/web-shows";
+
+import LayoutPage from "@/ui/layout-page";
+import LayoutPageContent from "@/ui/layout-page-content";
+import LayoutPageH3 from "@/ui/layout-page-h3";
+import WebShow from "@/ui/web-show";
 
 export default function Page() {
   return (
-    <div className="flex-1 pr-2 pb-4">
+    <LayoutPage>
       {Object.keys(WEB_SHOWS).map((key) => {
         const entries = WEB_SHOWS[key];
 
         return (
           <React.Fragment key={key}>
-            <h3
-              className="pb-6 rounded-md text-xl font-semibold pt-[165px] -mt-[140px]"
-              id={key}
-            >
-              {key}
-            </h3>
+            <LayoutPageH3 heading={key} />
 
-            <div className="flex flex-wrap items-start justify-start gap-4">
+            <LayoutPageContent>
               {entries.map((webShow, index) => {
                 return (
                   <WebShow
@@ -26,10 +26,10 @@ export default function Page() {
                   />
                 );
               })}
-            </div>
+            </LayoutPageContent>
           </React.Fragment>
         );
       })}
-    </div>
+    </LayoutPage>
   );
 }

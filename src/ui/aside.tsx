@@ -6,7 +6,7 @@ type AsideProps = {
 
 export default function Aside({ keys }: AsideProps) {
   return (
-    <aside className="pt-6 pl-8">
+    <aside className="pt-6 pl-8 hidden lg:block">
       <div className="flex flex-col fixed">
         {keys.map((key) => {
           return (

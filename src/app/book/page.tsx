@@ -1,30 +1,30 @@
-import { BOOKS } from "@/data/books";
-import Book from "@/ui/book";
 import React from "react";
+
+import { BOOKS } from "@/data/books";
+
+import Book from "@/ui/book";
+import LayoutPage from "@/ui/layout-page";
+import LayoutPageContent from "@/ui/layout-page-content";
+import LayoutPageH3 from "@/ui/layout-page-h3";
 
 export default function Page() {
   return (
-    <div className="flex-1 pr-2 pb-4">
+    <LayoutPage>
       {Object.keys(BOOKS).map((key) => {
         const entries = BOOKS[key];
 
         return (
           <React.Fragment key={key}>
-            <h3
-              className="pb-6 rounded-md text-xl font-semibold pt-[165px] -mt-[140px]"
-              id={key}
-            >
-              {key}
-            </h3>
+            <LayoutPageH3 heading={key} />
 
-            <div className="flex flex-wrap items-center justify-center gap-4">
+            <LayoutPageContent>
               {entries.map((book) => {
                 return <Book book={book} key={book.name} />;
               })}
-            </div>
+            </LayoutPageContent>
           </React.Fragment>
         );
       })}
-    </div>
+    </LayoutPage>
   );
 }

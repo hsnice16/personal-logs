@@ -1,30 +1,30 @@
-import { WRITINGS } from "@/data/writings";
-import Writing from "@/ui/writing";
 import React from "react";
+
+import { WRITINGS } from "@/data/writings";
+
+import LayoutPage from "@/ui/layout-page";
+import LayoutPageContent from "@/ui/layout-page-content";
+import LayoutPageH3 from "@/ui/layout-page-h3";
+import Writing from "@/ui/writing";
 
 export default function Page() {
   return (
-    <div className="flex-1 pr-2 pb-4">
+    <LayoutPage>
       {Object.keys(WRITINGS).map((key) => {
         const entries = WRITINGS[key];
 
         return (
           <React.Fragment key={key}>
-            <h3
-              className="pb-6 rounded-md text-xl font-semibold pt-[165px] -mt-[140px]"
-              id={key}
-            >
-              {key}
-            </h3>
+            <LayoutPageH3 heading={key} />
 
-            <div className="flex flex-wrap items-center justify-start gap-4">
+            <LayoutPageContent>
               {entries.map((writing) => {
                 return <Writing writing={writing} key={writing.name} />;
               })}
-            </div>
+            </LayoutPageContent>
           </React.Fragment>
         );
       })}
-    </div>
+    </LayoutPage>
   );
 }

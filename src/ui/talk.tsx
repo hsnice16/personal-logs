@@ -6,6 +6,8 @@ type TalkProps = {
 
 export default function Talk({ talk }: TalkProps) {
   return (
-    <div className="w-[500px] h-[275px] bg-neutral-50">{talk.frameElement}</div>
+    <div className="sm:w-[420px] lg:w-[500px] sm:h-[240px] lg:h-[275px] bg-neutral-50">
+      {talk.frameElement}
+    </div>
   );
 }

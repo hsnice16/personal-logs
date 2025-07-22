@@ -8,13 +8,13 @@ type WritingProps = {
 export default function Writing({ writing }: WritingProps) {
   return (
     <a href={writing.link} target="_blank">
-      <div className="flex flex-col w-[240px] min-h-[320px] gap-1">
+      <div className="flex flex-col sm:w-[200px] lg:w-[240px] sm:min-h-[300px] lg:min-h-[320px] gap-1">
         {writing.img ? (
           <Image
             src={writing.img}
             alt={writing.name}
             placeholder="blur"
-            className="max-w-[240px] max-h-[302px]"
+            className="sm:max-w-[200px] lg:max-w-[240px] sm:max-h-[282px] lg:max-h-[302px]"
           />
         ) : null}
 

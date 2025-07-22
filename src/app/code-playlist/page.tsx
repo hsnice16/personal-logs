@@ -1,23 +1,23 @@
 import React from "react";
+
 import { CODE_PLAYLISTS } from "@/data/code-playlists";
+
 import CodePlaylist from "@/ui/code-playlist";
+import LayoutPage from "@/ui/layout-page";
+import LayoutPageH3 from "@/ui/layout-page-h3";
+import LayoutPageContent from "@/ui/layout-page-content";
 
 export default function Page() {
   return (
-    <div className="flex-1 pr-2 pb-4">
+    <LayoutPage>
       {Object.keys(CODE_PLAYLISTS).map((key) => {
         const entries = CODE_PLAYLISTS[key];
 
         return (
           <React.Fragment key={key}>
-            <h3
-              className="pb-6 rounded-md text-xl font-semibold pt-[165px] -mt-[140px]"
-              id={key}
-            >
-              {key}
-            </h3>
+            <LayoutPageH3 heading={key} />
 
-            <div className="flex flex-wrap items-center gap-4">
+            <LayoutPageContent>
               {entries.map((codePlaylist, index) => {
                 return (
                   <CodePlaylist
@@ -26,10 +26,10 @@ export default function Page() {
                   />
                 );
               })}
-            </div>
+            </LayoutPageContent>
           </React.Fragment>
         );
       })}
-    </div>
+    </LayoutPage>
   );
 }

@@ -20,7 +20,7 @@ export default function MainNav() {
     <nav className="sm:w-[192px] lg:w-3xs pt-6 h-full">
       <div className="flex flex-col fixed justify-between">
         <div className="sm:ml-[8px] lg:ml-0">
-          <p className="mb-2 rounded-md px-2 py-1 text-base font-semibold text-black-700">
+          <p className="mb-2 rounded-md px-2 py-1 sm:text-[15px] lg:text-base font-semibold text-black-700">
             Page
           </p>
 
@@ -39,10 +39,13 @@ export default function MainNav() {
                       <Link
                         key={link.href}
                         href={"/" + link.href}
-                        className={clsx("mb-1 ml-1 px-2 text-sm font-normal", {
-                          "text-primary": isActive,
-                          "text-gray-100": !isActive,
-                        })}
+                        className={clsx(
+                          "mb-1 ml-1 px-2 sm:text-[13px] lg:text-sm font-normal",
+                          {
+                            "text-primary": isActive,
+                            "text-gray-100": !isActive,
+                          }
+                        )}
                       >
                         {link.label}
                       </Link>
@@ -61,7 +64,7 @@ export default function MainNav() {
               target="_blank"
               className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
-              <XLogo size={18} />
+              <XLogo className="sm:text-[16px] lg:text-[18px]" />
             </a>
           </div>
 
@@ -71,7 +74,7 @@ export default function MainNav() {
               target="_blank"
               className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
-              <YoutubeLogo size={18} />
+              <YoutubeLogo className="sm:text-[16px] lg:text-[18px]" />
             </a>
 
             <a
@@ -79,7 +82,7 @@ export default function MainNav() {
               target="_blank"
               className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
-              <InstagramLogo size={18} />
+              <InstagramLogo className="sm:text-[16px] lg:text-[18px]" />
             </a>
 
             <a
@@ -87,7 +90,7 @@ export default function MainNav() {
               target="_blank"
               className="flex items-center justify-center bg-neutral-50 p-1 rounded-md shadow-md text-black-700"
             >
-              <MediumLogo size={18} />
+              <MediumLogo className="sm:text-[16px] lg:text-[18px]" />
             </a>
           </div>
 
