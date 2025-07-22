@@ -6,12 +6,14 @@ import CodePlaylist from "@/ui/code-playlist";
 import LayoutPage from "@/ui/layout-page";
 import LayoutPageH3 from "@/ui/layout-page-h3";
 import LayoutPageContent from "@/ui/layout-page-content";
+import Separator from "@/ui/separator";
 
 export default function Page() {
   return (
     <LayoutPage>
-      {Object.keys(CODE_PLAYLISTS).map((key) => {
+      {Object.keys(CODE_PLAYLISTS).map((key, index, array) => {
         const entries = CODE_PLAYLISTS[key];
+        const isLast = index + 1 === array.length;
 
         return (
           <React.Fragment key={key}>
@@ -27,6 +29,8 @@ export default function Page() {
                 );
               })}
             </LayoutPageContent>
+
+            {isLast ? null : <Separator />}
           </React.Fragment>
         );
       })}

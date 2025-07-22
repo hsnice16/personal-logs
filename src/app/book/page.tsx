@@ -6,12 +6,14 @@ import Book from "@/ui/book";
 import LayoutPage from "@/ui/layout-page";
 import LayoutPageContent from "@/ui/layout-page-content";
 import LayoutPageH3 from "@/ui/layout-page-h3";
+import Separator from "@/ui/separator";
 
 export default function Page() {
   return (
     <LayoutPage>
-      {Object.keys(BOOKS).map((key) => {
+      {Object.keys(BOOKS).map((key, index, array) => {
         const entries = BOOKS[key];
+        const isLast = index + 1 === array.length;
 
         return (
           <React.Fragment key={key}>
@@ -22,6 +24,8 @@ export default function Page() {
                 return <Book book={book} key={book.name} />;
               })}
             </LayoutPageContent>
+
+            {isLast ? null : <Separator />}
           </React.Fragment>
         );
       })}

@@ -33,7 +33,7 @@ export default function Book({ book }: BookProps) {
         </div>
       ) : null}
 
-      <div className="relative sm:w-[220px] lg:w-[240px] sm:h-[220px] lg:h-[240px]">
+      <div className="relative w-[190px] sm:w-[220px] lg:w-[240px] h-[190px] sm:h-[220px] lg:h-[240px]">
         <Image src={bookCover} alt="book-cover" />
 
         {book.img ? (
@@ -42,7 +42,7 @@ export default function Book({ book }: BookProps) {
             alt={book.name}
             placeholder="blur"
             className={clsx(
-              "absolute sm:max-h-[150px] lg:max-h-[165px] sm:max-w-[124px] lg:max-w-[136px] sm:left-[40px] lg:left-[42px] sm:top-[25px] lg:top-[27px] rotate-x-[38deg] -rotate-y-[24deg] rotate-z-[19deg]",
+              "absolute max-h-[133px] sm:max-h-[150px] lg:max-h-[165px] max-w-[108px] sm:max-w-[124px] lg:max-w-[136px] left-[33px] sm:left-[40px] lg:left-[42px] top-[21px] sm:top-[25px] lg:top-[27px] rotate-x-[38deg] -rotate-y-[24deg] rotate-z-[19deg]",
               {
                 "h-[166px]": book?.shape === "square",
               }
@@ -52,7 +52,7 @@ export default function Book({ book }: BookProps) {
       </div>
 
       <div className="rounded-md absolute left-0 bottom-0 right-0 top-0 bg-linear-to-t from-neutral-200 to-neutral-50/2 flex flex-col justify-end p-4 gap-1">
-        <p className="sm:text-xs lg:text-sm font-semibold">{book.name}</p>
+        <p className="text-xs lg:text-sm font-semibold">{book.name}</p>
         <p className="text-xs italic">by {book.author}</p>
 
         {book.tags?.length ? (

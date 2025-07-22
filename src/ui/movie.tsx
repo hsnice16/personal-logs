@@ -10,7 +10,7 @@ type MovieProps = {
 export default function Movie({ movie }: MovieProps) {
   return (
     <div className="rounded-md bg-neutral-50 flex justify-center items-center relative overflow-hidden hover:[&_div:nth-child(2)]:movie-hover cursor-help">
-      <div className="sm:w-[200px] lg:w-[220px] sm:h-[240px] lg:h-[260px] relative">
+      <div className="w-[180px] sm:w-[200px] lg:w-[220px] h-[220px] sm:h-[240px] lg:h-[260px] relative">
         <Image src={moviePoster} alt="movie-poster" className="h-full w-full" />
 
         {movie.img ? (
@@ -19,7 +19,7 @@ export default function Movie({ movie }: MovieProps) {
             alt={movie.name}
             placeholder="blur"
             className={clsx(
-              "absolute sm:max-w-[122px] lg:max-w-[132px] sm:max-h-[162px] lg:max-h-[172px] top-[52px] left-[36px] border border-white"
+              "absolute max-w-[112px] sm:max-w-[122px] lg:max-w-[132px] max-h-[152px] sm:max-h-[162px] lg:max-h-[172px] top-[42px] sm:top-[52px] left-[30px] sm:left-[36px] border border-white"
             )}
           />
         ) : null}

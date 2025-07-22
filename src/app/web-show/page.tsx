@@ -6,12 +6,14 @@ import LayoutPage from "@/ui/layout-page";
 import LayoutPageContent from "@/ui/layout-page-content";
 import LayoutPageH3 from "@/ui/layout-page-h3";
 import WebShow from "@/ui/web-show";
+import Separator from "@/ui/separator";
 
 export default function Page() {
   return (
     <LayoutPage>
-      {Object.keys(WEB_SHOWS).map((key) => {
+      {Object.keys(WEB_SHOWS).map((key, index, array) => {
         const entries = WEB_SHOWS[key];
+        const isLast = index + 1 === array.length;
 
         return (
           <React.Fragment key={key}>
@@ -27,6 +29,8 @@ export default function Page() {
                 );
               })}
             </LayoutPageContent>
+
+            {isLast ? null : <Separator />}
           </React.Fragment>
         );
       })}

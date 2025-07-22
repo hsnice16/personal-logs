@@ -6,7 +6,7 @@ type CodePlaylistProps = {
 
 export default function CodePlaylist({ codePlaylist }: CodePlaylistProps) {
   return (
-    <div className="sm:w-[420px] lg:w-[500px] sm:h-[240px] lg:h-[275px] bg-neutral-50">
+    <div className="w-[380px] sm:w-[420px] lg:w-[500px] h-[220px] sm:h-[240px] lg:h-[275px] bg-neutral-50">
       {codePlaylist.frameElement}
     </div>
   );
