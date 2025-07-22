@@ -181,6 +181,7 @@ import BringHerBack2025 from "@/movie/bring-her-back-2025.jpg";
 import BleedForThis2016 from "@/movie/bleed-for-this-2016.jpg";
 import KarateKidLegends from "@/movie/karate-kid-legends.jpg";
 import BraveCitizen2023 from "@/movie/brave-citizen-2023.jpg";
+import LamborginiTheManBehindTheLegend from "@/movie/lamborghini-the-man-behind-the-legend.png";
 
 export type Movie = {
   name: string;
@@ -189,6 +190,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '25": [
+    {
+      name: "Lamborghini: The Man Behind the Legend",
+      img: LamborginiTheManBehindTheLegend,
+    },
     {
       name: "Brave Citizen (2023)",
       img: BraveCitizen2023,
