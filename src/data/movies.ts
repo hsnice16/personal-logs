@@ -182,6 +182,7 @@ import BleedForThis2016 from "@/movie/bleed-for-this-2016.jpg";
 import KarateKidLegends from "@/movie/karate-kid-legends.jpg";
 import BraveCitizen2023 from "@/movie/brave-citizen-2023.jpg";
 import LamborginiTheManBehindTheLegend from "@/movie/lamborghini-the-man-behind-the-legend.png";
+import ThePerfectDate2019 from "@/movie/the-perfect-date-2019.webp";
 
 export type Movie = {
   name: string;
@@ -190,6 +191,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '25": [
+    {
+      name: "The Perfect Date (2019)",
+      img: ThePerfectDate2019,
+    },
     {
       name: "Lamborghini: The Man Behind the Legend",
       img: LamborginiTheManBehindTheLegend,
