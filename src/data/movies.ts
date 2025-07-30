@@ -183,6 +183,7 @@ import KarateKidLegends from "@/movie/karate-kid-legends.jpg";
 import BraveCitizen2023 from "@/movie/brave-citizen-2023.jpg";
 import LamborginiTheManBehindTheLegend from "@/movie/lamborghini-the-man-behind-the-legend.png";
 import ThePerfectDate2019 from "@/movie/the-perfect-date-2019.webp";
+import HappyGilmore22025 from "@/movie/happy-gilmore-2.webp";
 
 export type Movie = {
   name: string;
@@ -191,6 +192,7 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '25": [
+    { name: "Happy Gilmore 2 (2025)", img: HappyGilmore22025 },
     {
       name: "The Perfect Date (2019)",
       img: ThePerfectDate2019,
