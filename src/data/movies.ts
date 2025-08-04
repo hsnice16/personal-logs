@@ -185,12 +185,20 @@ import LamborginiTheManBehindTheLegend from "@/movie/lamborghini-the-man-behind-
 import ThePerfectDate2019 from "@/movie/the-perfect-date-2019.webp";
 import HappyGilmore22025 from "@/movie/happy-gilmore-2.webp";
 
+import Bramayugam2024 from "@/movie/bramayugam-2024.webp";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Aug '25": [
+    {
+      name: "Bramayugam (2024)",
+      img: Bramayugam2024,
+    },
+  ],
   "Jul '25": [
     { name: "Happy Gilmore 2 (2025)", img: HappyGilmore22025 },
     {
