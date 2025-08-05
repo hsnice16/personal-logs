@@ -29,7 +29,7 @@ export default function Anime({ anime }: AnimeProps) {
             alt={anime.name}
             placeholder="blur"
             className={clsx(
-              "absolut max-w-[112px] sm:max-w-[142px] lg:max-w-[172px] max-h-[105px] sm:max-h-[135px] lg:max-h-[164px] -ml-[128px] sm:ml-[12px] lg:ml-[24px] -mt-[26px] sm:-mt-[32px] lg:-mt-[36px] rotate-x-[59deg] rotate-y-[4deg] -rotate-z-[34deg] anime-clip",
+              "absolute max-w-[108px] sm:max-w-[142px] lg:max-w-[172px] max-h-[105px] sm:max-h-[135px] lg:max-h-[164px] -ml-[6px] sm:ml-[12px] lg:ml-[24px] -mt-[26px] sm:-mt-[32px] lg:-mt-[36px] rotate-x-[59deg] rotate-y-[4deg] -rotate-z-[34deg] anime-clip",
               {
                 "h-[105px] sm:h-[135px] lg:h-[164px]":
                   anime?.shape === "square",
