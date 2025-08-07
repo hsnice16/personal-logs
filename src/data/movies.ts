@@ -186,6 +186,7 @@ import ThePerfectDate2019 from "@/movie/the-perfect-date-2019.webp";
 import HappyGilmore22025 from "@/movie/happy-gilmore-2.webp";
 
 import Bramayugam2024 from "@/movie/bramayugam-2024.webp";
+import Hereditary from "@/movie/hereditary.png";
 
 export type Movie = {
   name: string;
@@ -194,6 +195,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Aug '25": [
+    {
+      name: "Hereditary",
+      img: Hereditary,
+    },
     {
       name: "Bramayugam (2024)",
       img: Bramayugam2024,
