@@ -48,6 +48,7 @@ import AllOfUsAreDead from "@/web-show/all-of-us-are-dead.jpg";
 import BusinessProposal from "@/web-show/business-proposal.jpg";
 
 import Trigger from "@/web-show/trigger.jpg";
+import GlassHeart from "@/web-show/glass-heart.jpg";
 
 export type WebShow = {
   img: StaticImageData;
@@ -55,6 +56,9 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Aug '25": [
+    {
+      img: GlassHeart,
+    },
     {
       img: Trigger,
     },
