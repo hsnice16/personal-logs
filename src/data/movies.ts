@@ -188,6 +188,7 @@ import HappyGilmore22025 from "@/movie/happy-gilmore-2.webp";
 import Bramayugam2024 from "@/movie/bramayugam-2024.webp";
 import Hereditary from "@/movie/hereditary.png";
 import Rush2013Film from "@/movie/rush-2013-film.jpg";
+import TheIntern2015Film from "@/movie/the-intern-2015-film.jpg";
 
 export type Movie = {
   name: string;
@@ -196,6 +197,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Aug '25": [
+    {
+      name: "The Intern (2015 film)",
+      img: TheIntern2015Film,
+    },
     {
       name: "Rush (2013 film)",
       img: Rush2013Film,
