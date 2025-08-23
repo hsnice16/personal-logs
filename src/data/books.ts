@@ -39,6 +39,8 @@ import DesigningDataIntensiveApplication from "@/book/designing-data-intensive-a
 
 import MasteringGoSecondEdition from "@/book/mastering-go-second-edition.jpg";
 
+import NeverSplitTheDifference from "@/book/never-split-the-difference.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -57,6 +59,14 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Aug '25": [
+    {
+      name: "Never Split The Difference",
+      author: "Chris Voss",
+      img: NeverSplitTheDifference,
+      providers: [{ img: AmazonLogo, link: "https://amzn.to/4fMy1zc" }],
+    },
+  ],
   "Jul '25": [
     {
       name: "Mastering Go - Second Edition: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures",
