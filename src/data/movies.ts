@@ -190,6 +190,7 @@ import Hereditary from "@/movie/hereditary.png";
 import Rush2013Film from "@/movie/rush-2013-film.jpg";
 import TheIntern2015Film from "@/movie/the-intern-2015-film.jpg";
 import MissionImpossibleTheFinalReckoning from "@/movie/mission-impossible-the-final-reckoning.jpg";
+import LoveUntangled from "@/movie/love-untangled.jpg";
 
 export type Movie = {
   name: string;
@@ -198,6 +199,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Aug '25": [
+    {
+      name: "Love Untangled",
+      img: LoveUntangled,
+    },
     {
       name: "Mission: Impossible – The Final Reckoning",
       img: MissionImpossibleTheFinalReckoning,
