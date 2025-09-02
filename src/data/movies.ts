@@ -193,12 +193,20 @@ import MissionImpossibleTheFinalReckoning from "@/movie/mission-impossible-the-f
 import LoveUntangled from "@/movie/love-untangled.jpg";
 import F1TheMovie2025 from "@/movie/f1-the-movie-2025.jpg";
 
+import Nocturnal2025 from "@/movie/nocturnal-2025.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Sep '25": [
+    {
+      name: "Nocturnal (2025)",
+      img: Nocturnal2025,
+    },
+  ],
   "Aug '25": [
     {
       name: "F1: The Movie (2025)",
