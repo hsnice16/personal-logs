@@ -51,11 +51,18 @@ import Trigger from "@/web-show/trigger.jpg";
 import GlassHeart from "@/web-show/glass-heart.jpg";
 import BeyondTheBar from "@/web-show/beyond-the-bar.jpg";
 
+import ExtraOrdinaryAttorneyWoo from "@/web-show/extraordinary-attorney-woo.jpg";
+
 export type WebShow = {
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Sep '25": [
+    {
+      img: ExtraOrdinaryAttorneyWoo,
+    },
+  ],
   "Aug '25": [
     {
       img: BeyondTheBar,
