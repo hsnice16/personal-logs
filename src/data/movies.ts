@@ -195,6 +195,7 @@ import F1TheMovie2025 from "@/movie/f1-the-movie-2025.jpg";
 
 import Nocturnal2025 from "@/movie/nocturnal-2025.jpg";
 import Barbarian2022 from "@/movie/barbarian-2022.png";
+import MarginCall2011 from "@/movie/margin-call-2011.jpg";
 
 export type Movie = {
   name: string;
@@ -203,6 +204,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Sep '25": [
+    {
+      name: "Margin Call (2011)",
+      img: MarginCall2011,
+    },
     {
       name: "Barbarian (2022)",
       img: Barbarian2022,
