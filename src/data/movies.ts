@@ -197,6 +197,7 @@ import Nocturnal2025 from "@/movie/nocturnal-2025.jpg";
 import Barbarian2022 from "@/movie/barbarian-2022.png";
 import MarginCall2011 from "@/movie/margin-call-2011.jpg";
 import Weapons2025 from "@/movie/weapons-2025.jpg";
+import Highest2Lowest2025 from "@/movie/highest-2-lowest-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -205,6 +206,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Sep '25": [
+    {
+      name: "Highest 2 Lowest (2025)",
+      img: Highest2Lowest2025,
+    },
     {
       name: "Weapons (2025)",
       img: Weapons2025,
