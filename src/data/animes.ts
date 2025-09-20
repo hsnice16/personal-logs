@@ -47,6 +47,8 @@ import Sk8TheInfinity from "@/anime/sk8-the-infinity.jpg";
 
 import DeathNote from "@/anime/death-note.jpg";
 
+import JujutsuKaisen from "@/anime/jujutsu-kaisen.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -54,6 +56,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Sep '25": [
+    {
+      name: "Jujutsu Kaisen",
+      img: JujutsuKaisen,
+    },
+  ],
   "Aug '25": [
     {
       name: "Death Note",

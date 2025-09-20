@@ -52,155 +52,212 @@ import GlassHeart from "@/web-show/glass-heart.jpg";
 import BeyondTheBar from "@/web-show/beyond-the-bar.jpg";
 
 import ExtraOrdinaryAttorneyWoo from "@/web-show/extraordinary-attorney-woo.jpg";
+import MyName2021 from "@/web-show/my-name-2021.jpg";
 
 export type WebShow = {
+  name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Sep '25": [
     {
+      img: MyName2021,
+      name: "My Name (TV Series 2021)",
+    },
+    {
       img: ExtraOrdinaryAttorneyWoo,
+      name: "Extraordinary Attorney Woo (TV Series 2022)",
     },
   ],
   "Aug '25": [
     {
       img: BeyondTheBar,
+      name: "Beyond the Bar",
     },
     {
       img: GlassHeart,
+      name: "Glass Heart (TV series)",
     },
     {
       img: Trigger,
+      name: "Trigger (TV Series 2025)",
     },
   ],
   "Jul '25": [
     {
       img: BusinessProposal,
+      name: "Business Proposal (TV Series 2022)",
     },
     {
       img: AllOfUsAreDead,
+      name: "All of Us Are Dead",
     },
   ],
   "Jun '25": [
     {
       img: GoodBoy,
+      name: "Good Boy (TV Series 2025)",
     },
     {
       img: MercyForNone,
+      name: "Mercy for None (TV Series 2025)",
     },
   ],
   "May '25": [
     {
       img: Vincenzo,
+      name: "Vincenzo (TV Series 2021)",
     },
   ],
   "Apr '25": [
     {
       img: TwentyFiveTwentyOne,
+      name: "Twenty-Five Twenty-One",
     },
     {
       img: WeekHeroClassTwo,
+      name: "Weak Hero Class 2",
     },
-    { img: TheLastOfUs },
+    {
+      img: TheLastOfUs,
+      name: "The Last of Us (TV Series 2023)",
+    },
   ],
-  "Mar '25": [{ img: WeekHeroClassOne }],
+  "Mar '25": [
+    {
+      img: WeekHeroClassOne,
+      name: "Weak Hero Class 1",
+    },
+  ],
   Previous: [
     {
       img: ItaewonClass,
+      name: "Itaewon Class (TV Series 2020)",
     },
     {
       img: GyeongseongCreature,
+      name: "Gyeongseong Creature",
     },
     {
       img: TheMentalist,
+      name: "The Mentalist",
     },
     {
       img: From,
+      name: "From (TV Series 2022)",
     },
     {
       img: FirstLove,
+      name: "First Love (TV Series 2022)",
     },
     {
       img: ItsOkayToNotBeOkay,
+      name: "It's Okay to Not Be Okay",
     },
     {
       img: FightForMyWay,
+      name: "Fight for My Way (TV Series 2017)",
     },
     {
       img: HighSchoolReturnOfAGangster,
+      name: "High School Return of a Gangster",
     },
     {
       img: Shogun,
+      name: "Shōgun (2024 TV series)",
     },
     {
       img: QueenOfTears,
+      name: "Queen of Tears (TV Series 2024)",
     },
     {
       img: TokyoVice,
+      name: "Tokyo Vice (TV Series 2022–2024)",
     },
     {
       img: StartUp,
+      name: "Start-Up (TV Series 2020)",
     },
     {
       img: Reacher,
+      name: "Reacher (TV Series 2022)",
     },
     {
       img: CrashLandingOnYou,
+      name: "Crash Landing on You (TV Series 2019–2020)",
     },
     {
       img: BigMouth,
+      name: "Big Mouth (TV Series 2022)",
     },
     {
       img: Doona,
+      name: "Doona! (TV Series 2023)",
     },
     {
       img: SongOfTheBandits,
+      name: "Song of the Bandits (TV Series 2023)",
     },
     {
       img: MrRobot,
+      name: "Mr. Robot",
     },
     {
       img: Warrior,
+      name: "Warrior (TV Series 2019–2023)",
     },
     {
       img: Bloodhounds,
+      name: "Bloodhounds (TV Series 2023)",
     },
     {
       img: BlackKnight,
+      name: "Black Knight (TV Series 2023)",
     },
     {
       img: Adamas,
+      name: "Adamas (TV Series 2022)",
     },
     {
       img: Suits,
+      name: "Suits",
     },
     {
       img: PeakyBlinders,
+      name: "Peaky Blinders",
     },
     {
       img: Rangbaaz,
+      name: "Rangbaaz",
     },
     {
       img: AliceInBorderland,
+      name: "Alice in Borderland (TV series)",
     },
     {
       img: StrangerThings4,
+      name: "Stranger Things season 4",
     },
     {
       img: SquidGame,
+      name: "Squid Game",
     },
     {
       img: SiliconValley,
+      name: "Silicon Valley",
     },
     {
       img: TheVampireDiaries,
+      name: "The Vampire Diaries",
     },
     {
       img: TheBigBangTheory,
+      name: "The Big Bang Theory",
     },
     {
       img: Riverdale,
+      name: "Riverdale",
     },
   ],
 };
