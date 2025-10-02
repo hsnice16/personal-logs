@@ -199,12 +199,20 @@ import MarginCall2011 from "@/movie/margin-call-2011.jpg";
 import Weapons2025 from "@/movie/weapons-2025.jpg";
 import Highest2Lowest2025 from "@/movie/highest-2-lowest-2025.jpg";
 
+import FightBackToSchool from "@/movie/fight-back-to-school.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Oct '25": [
+    {
+      name: "Fight Back to School",
+      img: FightBackToSchool,
+    },
+  ],
   "Sep '25": [
     {
       name: "Highest 2 Lowest (2025)",
