@@ -201,6 +201,7 @@ import Highest2Lowest2025 from "@/movie/highest-2-lowest-2025.jpg";
 
 import FightBackToSchool from "@/movie/fight-back-to-school.jpg";
 import FightBackToSchool2 from "@/movie/fight-back-to-school-2.jpg";
+import PlayDirty2025 from "@/movie/play-dirty-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -209,6 +210,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Oct '25": [
+    {
+      name: "Play Dirty (2025)",
+      img: PlayDirty2025,
+    },
     {
       name: "Fight Back to School II",
       img: FightBackToSchool2,
