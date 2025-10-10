@@ -203,6 +203,7 @@ import FightBackToSchool from "@/movie/fight-back-to-school.jpg";
 import FightBackToSchool2 from "@/movie/fight-back-to-school-2.jpg";
 import PlayDirty2025 from "@/movie/play-dirty-2025.jpg";
 import HolyNightDemonHunters from "@/movie/holy-night-demon-hunters.jpg";
+import Southpaw2015 from "@/movie/southpaw-2015.jpg";
 
 export type Movie = {
   name: string;
@@ -211,6 +212,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Oct '25": [
+    {
+      name: "Southpaw (2015)",
+      img: Southpaw2015,
+    },
     {
       name: "Holy Night: Demon Hunters",
       img: HolyNightDemonHunters,
