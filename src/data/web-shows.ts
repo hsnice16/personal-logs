@@ -54,12 +54,20 @@ import BeyondTheBar from "@/web-show/beyond-the-bar.jpg";
 import ExtraOrdinaryAttorneyWoo from "@/web-show/extraordinary-attorney-woo.jpg";
 import MyName2021 from "@/web-show/my-name-2021.jpg";
 
+import TwinklingWatermelon from "@/web-show/twinkling-watermelon.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Oct '25": [
+    {
+      img: TwinklingWatermelon,
+      name: "Twinkling Watermelon",
+    },
+  ],
   "Sep '25": [
     {
       img: MyName2021,
