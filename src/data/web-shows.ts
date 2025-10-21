@@ -55,6 +55,7 @@ import ExtraOrdinaryAttorneyWoo from "@/web-show/extraordinary-attorney-woo.jpg"
 import MyName2021 from "@/web-show/my-name-2021.jpg";
 
 import TwinklingWatermelon from "@/web-show/twinkling-watermelon.jpg";
+import RomanticsAnonymous from "@/web-show/romantics-anonymous.jpg";
 
 export type WebShow = {
   name: string;
@@ -63,6 +64,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Oct '25": [
+    {
+      img: RomanticsAnonymous,
+      name: "Romantics Anonymous (TV series)",
+    },
     {
       img: TwinklingWatermelon,
       name: "Twinkling Watermelon",

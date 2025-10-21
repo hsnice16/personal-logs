@@ -49,6 +49,8 @@ import DeathNote from "@/anime/death-note.jpg";
 
 import JujutsuKaisen from "@/anime/jujutsu-kaisen.jpg";
 
+import EngagedToTheUnidentified from "@/anime/engaged-to-the-unidentified.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -56,6 +58,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Oct '25": [
+    {
+      name: "Engaged to the Unidentified",
+      img: EngagedToTheUnidentified,
+    },
+  ],
   "Sep '25": [
     {
       name: "Jujutsu Kaisen",

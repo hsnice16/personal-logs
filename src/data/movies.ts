@@ -205,6 +205,8 @@ import PlayDirty2025 from "@/movie/play-dirty-2025.jpg";
 import HolyNightDemonHunters from "@/movie/holy-night-demon-hunters.jpg";
 import Southpaw2015 from "@/movie/southpaw-2015.jpg";
 import StrikingRescue2024 from "@/movie/striking-rescue-2024.jpg";
+import WallE2008 from "@/movie/wall-e-2008.jpeg";
+import EdenLake2008 from "@/movie/eden-lake-2008.jpg";
 
 export type Movie = {
   name: string;
@@ -213,6 +215,14 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Oct '25": [
+    {
+      name: "Eden Lake (2008)",
+      img: EdenLake2008,
+    },
+    {
+      name: "WALL·E (2008)",
+      img: WallE2008,
+    },
     {
       name: "Striking Rescue (2024)",
       img: StrikingRescue2024,
