@@ -207,6 +207,7 @@ import Southpaw2015 from "@/movie/southpaw-2015.jpg";
 import StrikingRescue2024 from "@/movie/striking-rescue-2024.jpg";
 import WallE2008 from "@/movie/wall-e-2008.jpeg";
 import EdenLake2008 from "@/movie/eden-lake-2008.jpg";
+import SpeakNoEvil2022 from "@/movie/speak-no-evil-2022.jpg";
 
 export type Movie = {
   name: string;
@@ -215,6 +216,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Oct '25": [
+    {
+      name: "Speak No Evil (2022 film)",
+      img: SpeakNoEvil2022,
+    },
     {
       name: "Eden Lake (2008)",
       img: EdenLake2008,
