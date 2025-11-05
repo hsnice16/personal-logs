@@ -209,12 +209,20 @@ import WallE2008 from "@/movie/wall-e-2008.jpeg";
 import EdenLake2008 from "@/movie/eden-lake-2008.jpg";
 import SpeakNoEvil2022 from "@/movie/speak-no-evil-2022.jpg";
 
+import IKnowWhatYouDidLastSummer2025 from "@/movie/i-know-what-you-did-last-summer-2025.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Nov '25": [
+    {
+      name: "I Know What You Did Last Summer (2025 film)",
+      img: IKnowWhatYouDidLastSummer2025,
+    },
+  ],
   "Oct '25": [
     {
       name: "Speak No Evil (2022 film)",
