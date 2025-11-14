@@ -57,12 +57,20 @@ import MyName2021 from "@/web-show/my-name-2021.jpg";
 import TwinklingWatermelon from "@/web-show/twinkling-watermelon.jpg";
 import RomanticsAnonymous from "@/web-show/romantics-anonymous.jpg";
 
+import KingTheLand from "@/web-show/king-the-land.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Nov '25": [
+    {
+      img: KingTheLand,
+      name: "King the Land",
+    },
+  ],
   "Oct '25": [
     {
       img: RomanticsAnonymous,
