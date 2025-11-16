@@ -210,6 +210,7 @@ import EdenLake2008 from "@/movie/eden-lake-2008.jpg";
 import SpeakNoEvil2022 from "@/movie/speak-no-evil-2022.jpg";
 
 import IKnowWhatYouDidLastSummer2025 from "@/movie/i-know-what-you-did-last-summer-2025.jpg";
+import NeZhaII2025 from "@/movie/ne-zha-2-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -218,6 +219,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Nov '25": [
+    {
+      name: "Ne Zha 2 (2025)",
+      img: NeZhaII2025,
+    },
     {
       name: "I Know What You Did Last Summer (2025 film)",
       img: IKnowWhatYouDidLastSummer2025,
