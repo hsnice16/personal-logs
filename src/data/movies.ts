@@ -211,6 +211,7 @@ import SpeakNoEvil2022 from "@/movie/speak-no-evil-2022.jpg";
 
 import IKnowWhatYouDidLastSummer2025 from "@/movie/i-know-what-you-did-last-summer-2025.jpg";
 import NeZhaII2025 from "@/movie/ne-zha-2-2025.jpg";
+import NeZha2019 from "@/movie/ne-zha-2019.jpg";
 
 export type Movie = {
   name: string;
@@ -219,6 +220,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Nov '25": [
+    {
+      name: "Ne Zha (2019)",
+      img: NeZha2019,
+    },
     {
       name: "Ne Zha 2 (2025)",
       img: NeZhaII2025,
