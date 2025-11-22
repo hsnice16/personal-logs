@@ -213,6 +213,7 @@ import IKnowWhatYouDidLastSummer2025 from "@/movie/i-know-what-you-did-last-summ
 import NeZhaII2025 from "@/movie/ne-zha-2-2025.jpg";
 import NeZha2019 from "@/movie/ne-zha-2019.jpg";
 import TheMapThatLeadsToYou from "@/movie/the-map-that-leads-to-you.jpg";
+import TheJester2023 from "@/movie/the-jester-2023.jpg";
 
 export type Movie = {
   name: string;
@@ -221,6 +222,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Nov '25": [
+    {
+      name: "The Jester (2023)",
+      img: TheJester2023,
+    },
     {
       name: "The Map That Leads to You",
       img: TheMapThatLeadsToYou,
