@@ -51,6 +51,8 @@ import JujutsuKaisen from "@/anime/jujutsu-kaisen.jpg";
 
 import EngagedToTheUnidentified from "@/anime/engaged-to-the-unidentified.jpg";
 
+import TheFragrantFlowerBloomsWithDignity from "@/anime/the-fragrant-flower-blooms-with-dignity.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -58,6 +60,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Nov '25": [
+    {
+      name: "The Fragrant Flower Blooms with Dignity",
+      img: TheFragrantFlowerBloomsWithDignity,
+    },
+  ],
   "Oct '25": [
     {
       name: "Engaged to the Unidentified",
