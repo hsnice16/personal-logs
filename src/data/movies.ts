@@ -215,12 +215,20 @@ import NeZha2019 from "@/movie/ne-zha-2019.jpg";
 import TheMapThatLeadsToYou from "@/movie/the-map-that-leads-to-you.jpg";
 import TheJester2023 from "@/movie/the-jester-2023.jpg";
 
+import CryptoMan2025 from "@/movie/crypto-man-2025.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Dec '25": [
+    {
+      name: "Crypto Man (2025)",
+      img: CryptoMan2025,
+    },
+  ],
   "Nov '25": [
     {
       name: "The Jester (2023)",

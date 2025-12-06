@@ -59,12 +59,20 @@ import RomanticsAnonymous from "@/web-show/romantics-anonymous.jpg";
 
 import KingTheLand from "@/web-show/king-the-land.jpg";
 
+import StrangerThings5 from "@/web-show/stranger-things-5.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Dec '25": [
+    {
+      img: StrangerThings5,
+      name: "Stranger Things season 5",
+    },
+  ],
   "Nov '25": [
     {
       img: KingTheLand,
