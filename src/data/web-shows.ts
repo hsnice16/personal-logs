@@ -60,6 +60,7 @@ import RomanticsAnonymous from "@/web-show/romantics-anonymous.jpg";
 import KingTheLand from "@/web-show/king-the-land.jpg";
 
 import StrangerThings5 from "@/web-show/stranger-things-5.jpg";
+import SuperPumped from "@/web-show/super-pumped.jpg";
 
 export type WebShow = {
   name: string;
@@ -68,6 +69,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Dec '25": [
+    {
+      img: SuperPumped,
+      name: "Super Pumped: The Battle For Uber",
+    },
     {
       img: StrangerThings5,
       name: "Stranger Things season 5",
