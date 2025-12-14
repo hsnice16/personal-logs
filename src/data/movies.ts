@@ -216,6 +216,7 @@ import TheMapThatLeadsToYou from "@/movie/the-map-that-leads-to-you.jpg";
 import TheJester2023 from "@/movie/the-jester-2023.jpg";
 
 import CryptoMan2025 from "@/movie/crypto-man-2025.jpg";
+import HowToTrainYourDragon2025 from "@/movie/how-to-train-your-dragon-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -224,6 +225,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Dec '25": [
+    {
+      name: "How to Train Your Dragon (2025)",
+      img: HowToTrainYourDragon2025,
+    },
     {
       name: "Crypto Man (2025)",
       img: CryptoMan2025,
