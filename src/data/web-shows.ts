@@ -62,6 +62,7 @@ import KingTheLand from "@/web-show/king-the-land.jpg";
 import StrangerThings5 from "@/web-show/stranger-things-5.jpg";
 import SuperPumped from "@/web-show/super-pumped.jpg";
 import Pluribus from "@/web-show/pluribus.jpg";
+import UndercoverHighSchool from "@/web-show/undercover-high-school.jpg";
 
 export type WebShow = {
   name: string;
@@ -70,6 +71,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Dec '25": [
+    {
+      img: UndercoverHighSchool,
+      name: "Undercover High School (TV Series 2025)",
+    },
     {
       img: Pluribus,
       name: "Pluribus (TV series)",

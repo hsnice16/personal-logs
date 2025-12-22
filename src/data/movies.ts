@@ -218,6 +218,7 @@ import TheJester2023 from "@/movie/the-jester-2023.jpg";
 import CryptoMan2025 from "@/movie/crypto-man-2025.jpg";
 import HowToTrainYourDragon2025 from "@/movie/how-to-train-your-dragon-2025.jpg";
 import Gangnam19702015 from "@/movie/gangnam-1970-2015.jpg";
+import TheGreatFlood2025 from "@/movie/the-great-flood-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -226,6 +227,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Dec '25": [
+    {
+      name: "The Great Flood (2025)",
+      img: TheGreatFlood2025,
+    },
     {
       name: "Gangnam 1970 (2015)",
       img: Gangnam19702015,
