@@ -220,6 +220,7 @@ import HowToTrainYourDragon2025 from "@/movie/how-to-train-your-dragon-2025.jpg"
 import Gangnam19702015 from "@/movie/gangnam-1970-2015.jpg";
 import TheGreatFlood2025 from "@/movie/the-great-flood-2025.jpg";
 import Dhurandhar2025 from "@/movie/dhurandhar-2025.jpeg";
+import Chhaava2025 from "@/movie/chhaava-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -228,6 +229,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Dec '25": [
+    {
+      name: "Chhaava (छावा) (2025)",
+      img: Chhaava2025,
+    },
     {
       name: "Dhurandhar (2025)",
       img: Dhurandhar2025,
