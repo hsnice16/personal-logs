@@ -31,6 +31,8 @@ import TheRightWayToBuildTsSdk from "@/writing/the-right-way-to-build-ts-sdk.png
 
 import CompilationOfMasteringGo from "@/writing/compilation-of-mastering-go.png";
 
+import Ending2025 from "@/writing/ending-2025.png";
+
 export type Writing = {
   name: string;
   link: string;
@@ -38,6 +40,13 @@ export type Writing = {
 };
 
 export const WRITINGS: { [key: string]: Writing[] } = {
+  "Dec '25": [
+    {
+      name: "ending-2025!",
+      link: "https://hsnice16.medium.com/ending-2025-792158796495",
+      img: Ending2025,
+    },
+  ],
   "Jul '25": [
     {
       name: "compilation-of-mastering-go",
