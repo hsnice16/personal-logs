@@ -55,6 +55,8 @@ import TheFragrantFlowerBloomsWithDignity from "@/anime/the-fragrant-flower-bloo
 
 import LaidBackCamp from "@/anime/laid-back-camp.jpg";
 
+import YourLieInApril from "@/anime/your-lie-in-april.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -62,6 +64,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Jan '26": [
+    {
+      name: "Your Lie in April",
+      img: YourLieInApril,
+    },
+  ],
   "Dec '25": [
     {
       name: "Laid-Back Camp",
