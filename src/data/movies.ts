@@ -223,6 +223,7 @@ import Dhurandhar2025 from "@/movie/dhurandhar-2025.jpeg";
 import Chhaava2025 from "@/movie/chhaava-2025.jpg";
 
 import EyeForAnEyeTwo2024 from "@/movie/eye-for-an-eye-2-2024.jpg";
+import TheTank2025 from "@/movie/the-tank-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -231,6 +232,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jan '26": [
+    {
+      name: "The Tank (2025)",
+      img: TheTank2025,
+    },
     {
       name: "Eye for an Eye 2 (2024)",
       img: EyeForAnEyeTwo2024,
