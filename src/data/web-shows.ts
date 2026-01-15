@@ -64,12 +64,25 @@ import SuperPumped from "@/web-show/super-pumped.jpg";
 import Pluribus from "@/web-show/pluribus.jpg";
 import UndercoverHighSchool from "@/web-show/undercover-high-school.jpg";
 
+import SpringFever from "@/web-show/spring-fever.webp";
+import YouthOfMay from "@/web-show/youth-of-may.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Jan '26": [
+    {
+      img: YouthOfMay,
+      name: "Youth of May",
+    },
+    {
+      img: SpringFever,
+      name: "Spring Fever",
+    },
+  ],
   "Dec '25": [
     {
       img: UndercoverHighSchool,

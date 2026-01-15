@@ -33,6 +33,8 @@ import CompilationOfMasteringGo from "@/writing/compilation-of-mastering-go.png"
 
 import Ending2025 from "@/writing/ending-2025.png";
 
+import JavaScriptDesignPatternsInTheAiEra from "@/writing/javaScript-design-patterns-in-the-ai-era.png";
+
 export type Writing = {
   name: string;
   link: string;
@@ -40,6 +42,13 @@ export type Writing = {
 };
 
 export const WRITINGS: { [key: string]: Writing[] } = {
+  "Jan '26": [
+    {
+      name: "javascript-design-patterns-in-the-ai-era",
+      link: "https://hsnice16.medium.com/javascript-design-patterns-in-the-ai-era-78713c9f82a0",
+      img: JavaScriptDesignPatternsInTheAiEra,
+    },
+  ],
   "Dec '25": [
     {
       name: "ending-2025!",
