@@ -56,6 +56,7 @@ import TheFragrantFlowerBloomsWithDignity from "@/anime/the-fragrant-flower-bloo
 import LaidBackCamp from "@/anime/laid-back-camp.jpg";
 
 import YourLieInApril from "@/anime/your-lie-in-april.jpg";
+import SentencedToBeAHero from "@/anime/sentenced-to-be-a-hero.jpg";
 
 export type Anime = {
   name: string;
@@ -65,6 +66,10 @@ export type Anime = {
 
 export const ANIMES: { [key: string]: Anime[] } = {
   "Jan '26": [
+    {
+      name: "Sentenced to Be a Hero",
+      img: SentencedToBeAHero,
+    },
     {
       name: "Your Lie in April",
       img: YourLieInApril,

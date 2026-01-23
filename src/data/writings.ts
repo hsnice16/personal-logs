@@ -34,6 +34,7 @@ import CompilationOfMasteringGo from "@/writing/compilation-of-mastering-go.png"
 import Ending2025 from "@/writing/ending-2025.png";
 
 import JavaScriptDesignPatternsInTheAiEra from "@/writing/javaScript-design-patterns-in-the-ai-era.png";
+import RenderingAndPerformanceInClientSideJavaScript from "@/writing/rendering-and-performance-in-client-side-javascript.png";
 
 export type Writing = {
   name: string;
@@ -43,6 +44,11 @@ export type Writing = {
 
 export const WRITINGS: { [key: string]: Writing[] } = {
   "Jan '26": [
+    {
+      name: "rendering-and-performance-in-client-side-javascript",
+      link: "https://hsnice16.medium.com/rendering-and-performance-in-client-side-javascript-9355f99ff9e0",
+      img: RenderingAndPerformanceInClientSideJavaScript,
+    },
     {
       name: "javascript-design-patterns-in-the-ai-era",
       link: "https://hsnice16.medium.com/javascript-design-patterns-in-the-ai-era-78713c9f82a0",
