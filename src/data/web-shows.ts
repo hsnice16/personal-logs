@@ -66,6 +66,7 @@ import UndercoverHighSchool from "@/web-show/undercover-high-school.jpg";
 
 import SpringFever from "@/web-show/spring-fever.webp";
 import YouthOfMay from "@/web-show/youth-of-may.jpg";
+import CanThisLoveBeTranslated from "@/web-show/can-this-love-be-translated.jpg";
 
 export type WebShow = {
   name: string;
@@ -74,6 +75,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Jan '26": [
+    {
+      img: CanThisLoveBeTranslated,
+      name: "Can This Love Be Translated?",
+    },
     {
       img: YouthOfMay,
       name: "Youth of May",

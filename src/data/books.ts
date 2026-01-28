@@ -43,6 +43,8 @@ import NeverSplitTheDifference from "@/book/never-split-the-difference.jpg";
 
 import MasteringNodeJS from "@/book/mastering-nodejs.jpg";
 
+import MyLifeInFull from "@/book/my-life-in-full.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -61,6 +63,13 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Jan '26": [
+    {
+      name: "My Life in Full: Work, Family, and Our Future",
+      author: "Indra Nooyi",
+      img: MyLifeInFull,
+    },
+  ],
   "Sep '25": [
     {
       name: "Mastering Node.js: Expert techniques for building fast servers and scalable, real-time network applications with minimal effort",
