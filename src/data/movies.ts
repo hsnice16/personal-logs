@@ -226,12 +226,20 @@ import EyeForAnEyeTwo2024 from "@/movie/eye-for-an-eye-2-2024.jpg";
 import TheTank2025 from "@/movie/the-tank-2025.jpg";
 import OneTwentyBahadur from "@/movie/120-bahadur.jpg";
 
+import Greenland2Migration from "@/movie/greenland-2-migration.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Feb '26": [
+    {
+      name: "Greenland 2: Migration",
+      img: Greenland2Migration,
+    },
+  ],
   "Jan '26": [
     {
       name: "120 Bahadur",
