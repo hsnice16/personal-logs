@@ -227,6 +227,7 @@ import TheTank2025 from "@/movie/the-tank-2025.jpg";
 import OneTwentyBahadur from "@/movie/120-bahadur.jpg";
 
 import Greenland2Migration from "@/movie/greenland-2-migration.jpg";
+import EvenIfThisLoveDisappearsTonight2025 from "@/movie/even-if-this-love-disappears-tonight-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -235,6 +236,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Feb '26": [
+    {
+      name: "Even if This Love Disappears Tonight (2025)",
+      img: EvenIfThisLoveDisappearsTonight2025,
+    },
     {
       name: "Greenland 2: Migration",
       img: Greenland2Migration,
