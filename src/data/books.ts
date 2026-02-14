@@ -45,6 +45,8 @@ import MasteringNodeJS from "@/book/mastering-nodejs.jpg";
 
 import MyLifeInFull from "@/book/my-life-in-full.jpg";
 
+import Ikigai from "@/book/ikigai.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -63,6 +65,13 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Feb '26": [
+    {
+      name: "Ikigai: The Japanese Secret to a Long and Happy Life",
+      author: "Francesc Miralles, Hector Garcia",
+      img: Ikigai,
+    },
+  ],
   "Jan '26": [
     {
       name: "My Life in Full: Work, Family, and Our Future",

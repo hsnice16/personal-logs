@@ -58,6 +58,8 @@ import LaidBackCamp from "@/anime/laid-back-camp.jpg";
 import YourLieInApril from "@/anime/your-lie-in-april.jpg";
 import SentencedToBeAHero from "@/anime/sentenced-to-be-a-hero.jpg";
 
+import YuriOnIce from "@/anime/yuri-on-ice.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -65,6 +67,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Feb '26": [
+    {
+      name: "Yuri on Ice",
+      img: YuriOnIce,
+    },
+  ],
   "Jan '26": [
     {
       name: "Sentenced to Be a Hero",
