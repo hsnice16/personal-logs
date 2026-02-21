@@ -228,6 +228,7 @@ import OneTwentyBahadur from "@/movie/120-bahadur.jpg";
 
 import Greenland2Migration from "@/movie/greenland-2-migration.jpg";
 import EvenIfThisLoveDisappearsTonight2025 from "@/movie/even-if-this-love-disappears-tonight-2025.jpg";
+import TheLongWalk2025 from "@/movie/the-long-walk-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -236,6 +237,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Feb '26": [
+    {
+      name: "The Long Walk (2025 film)",
+      img: TheLongWalk2025,
+    },
     {
       name: "Even if This Love Disappears Tonight (2025)",
       img: EvenIfThisLoveDisappearsTonight2025,
