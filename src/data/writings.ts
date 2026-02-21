@@ -36,6 +36,8 @@ import Ending2025 from "@/writing/ending-2025.png";
 import JavaScriptDesignPatternsInTheAiEra from "@/writing/javaScript-design-patterns-in-the-ai-era.png";
 import RenderingAndPerformanceInClientSideJavaScript from "@/writing/rendering-and-performance-in-client-side-javascript.png";
 
+import IpfsForTheDWeb from "@/writing/ipfs-for-the-d-web.png";
+
 export type Writing = {
   name: string;
   link: string;
@@ -43,6 +45,13 @@ export type Writing = {
 };
 
 export const WRITINGS: { [key: string]: Writing[] } = {
+  "Feb '26": [
+    {
+      name: "ipfs-for-the-d-web",
+      link: "https://hsnice16.medium.com/ipfs-for-the-d-web-70e7018b3ac2",
+      img: IpfsForTheDWeb,
+    },
+  ],
   "Jan '26": [
     {
       name: "rendering-and-performance-in-client-side-javascript",
