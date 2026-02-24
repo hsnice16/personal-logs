@@ -46,6 +46,7 @@ import MasteringNodeJS from "@/book/mastering-nodejs.jpg";
 import MyLifeInFull from "@/book/my-life-in-full.jpg";
 
 import Ikigai from "@/book/ikigai.jpg";
+import EdibleEconomics from "@/book/edible-economics.jpg";
 
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
@@ -66,6 +67,11 @@ export type Book = {
 
 export const BOOKS: { [key: string]: Book[] } = {
   "Feb '26": [
+    {
+      name: "Edible Economics: The World in 17 Dishes",
+      author: "Ha-Joon Chang",
+      img: EdibleEconomics,
+    },
     {
       name: "Ikigai: The Japanese Secret to a Long and Happy Life",
       author: "Francesc Miralles, Hector Garcia",
