@@ -68,12 +68,20 @@ import SpringFever from "@/web-show/spring-fever.webp";
 import YouthOfMay from "@/web-show/youth-of-may.jpg";
 import CanThisLoveBeTranslated from "@/web-show/can-this-love-be-translated.jpg";
 
+import TheNightAgent from "@/web-show/the-night-agent.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Mar '26": [
+    {
+      img: TheNightAgent,
+      name: "The Night Agent",
+    },
+  ],
   "Jan '26": [
     {
       img: CanThisLoveBeTranslated,

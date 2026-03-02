@@ -230,12 +230,20 @@ import Greenland2Migration from "@/movie/greenland-2-migration.jpg";
 import EvenIfThisLoveDisappearsTonight2025 from "@/movie/even-if-this-love-disappears-tonight-2025.jpg";
 import TheLongWalk2025 from "@/movie/the-long-walk-2025.jpg";
 
+import TheStrangersChapter2 from "@/movie/the-strangers-chapter-2.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Mar '26": [
+    {
+      name: "The Strangers – Chapter 2",
+      img: TheStrangersChapter2,
+    },
+  ],
   "Feb '26": [
     {
       name: "The Long Walk (2025 film)",
