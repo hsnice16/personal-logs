@@ -60,6 +60,8 @@ import SentencedToBeAHero from "@/anime/sentenced-to-be-a-hero.jpg";
 
 import YuriOnIce from "@/anime/yuri-on-ice.jpg";
 
+import HundredMeters from "@/anime/100-meters.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -67,6 +69,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Mar '26": [
+    {
+      name: "100 Meters",
+      img: HundredMeters,
+    },
+  ],
   "Feb '26": [
     {
       name: "Yuri on Ice",
