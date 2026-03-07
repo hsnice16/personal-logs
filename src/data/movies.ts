@@ -231,6 +231,8 @@ import EvenIfThisLoveDisappearsTonight2025 from "@/movie/even-if-this-love-disap
 import TheLongWalk2025 from "@/movie/the-long-walk-2025.jpg";
 
 import TheStrangersChapter2 from "@/movie/the-strangers-chapter-2.jpg";
+import TheStrangersChapter3 from "@/movie/the-strangers-chapter-3.png";
+import ExtremeJob2019 from "@/movie/extreme-job-2019.jpg";
 
 export type Movie = {
   name: string;
@@ -239,6 +241,14 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Mar '26": [
+    {
+      name: "Extreme Job (2019)",
+      img: ExtremeJob2019,
+    },
+    {
+      name: "The Strangers – Chapter 3",
+      img: TheStrangersChapter3,
+    },
     {
       name: "The Strangers – Chapter 2",
       img: TheStrangersChapter2,
