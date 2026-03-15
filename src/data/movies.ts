@@ -233,6 +233,8 @@ import TheLongWalk2025 from "@/movie/the-long-walk-2025.jpg";
 import TheStrangersChapter2 from "@/movie/the-strangers-chapter-2.jpg";
 import TheStrangersChapter3 from "@/movie/the-strangers-chapter-3.png";
 import ExtremeJob2019 from "@/movie/extreme-job-2019.jpg";
+import SherlockHolmes2009 from "@/movie/sherlock-holmes-2009.jpg";
+import WarMachine2026 from "@/movie/war-machine-2026.webp";
 
 export type Movie = {
   name: string;
@@ -241,6 +243,14 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Mar '26": [
+    {
+      name: "War Machine (2026 film)",
+      img: WarMachine2026,
+    },
+    {
+      name: "Sherlock Holmes (2009 film)",
+      img: SherlockHolmes2009,
+    },
     {
       name: "Extreme Job (2019)",
       img: ExtremeJob2019,
