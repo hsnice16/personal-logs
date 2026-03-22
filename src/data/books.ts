@@ -66,6 +66,12 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Mar '26": [
+    {
+      name: "How Crypto Actually Works: The Missing Manual",
+      author: "Larry Cermak",
+    },
+  ],
   "Feb '26": [
     {
       name: "Edible Economics: The World in 17 Dishes",

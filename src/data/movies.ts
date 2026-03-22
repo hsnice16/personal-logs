@@ -236,6 +236,7 @@ import ExtremeJob2019 from "@/movie/extreme-job-2019.jpg";
 import SherlockHolmes2009 from "@/movie/sherlock-holmes-2009.jpg";
 import WarMachine2026 from "@/movie/war-machine-2026.webp";
 import SherlockHolmes2011 from "@/movie/sherlock-holmes-2011.webp";
+import RentalFamily2025 from "@/movie/rental-family-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -244,6 +245,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Mar '26": [
+    {
+      name: "Rental Family (2025)",
+      img: RentalFamily2025,
+    },
     {
       name: "Sherlock Holmes: A Game of Shadows (2011 film)",
       img: SherlockHolmes2011,
