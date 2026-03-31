@@ -239,6 +239,7 @@ import SherlockHolmes2011 from "@/movie/sherlock-holmes-2011.webp";
 import RentalFamily2025 from "@/movie/rental-family-2025.jpg";
 import TimeToHunt2020 from "@/movie/time-to-hunt-2020.jpg";
 import DhurandharTheRevenge2026 from "@/movie/dhurandhar-the-revenge-2026.jpg";
+import Chithha2023 from "@/movie/chithha-2023.jpg";
 
 export type Movie = {
   name: string;
@@ -247,6 +248,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Mar '26": [
+    {
+      name: "Chithha (2023)",
+      img: Chithha2023,
+    },
     {
       name: "Dhurandhar The Revenge (2026)",
       img: DhurandharTheRevenge2026,
