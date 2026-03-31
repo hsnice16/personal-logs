@@ -45,7 +45,7 @@ export default function Book({ book }: BookProps) {
               "absolute max-h-[133px] sm:max-h-[150px] lg:max-h-[165px] max-w-[108px] sm:max-w-[124px] lg:max-w-[136px] left-[33px] sm:left-[40px] lg:left-[42px] top-[21px] sm:top-[25px] lg:top-[27px] rotate-x-[38deg] -rotate-y-[24deg] rotate-z-[19deg]",
               {
                 "h-[166px]": book?.shape === "square",
-              }
+              },
             )}
           />
         ) : null}
@@ -53,7 +53,9 @@ export default function Book({ book }: BookProps) {
 
       <div className="rounded-md absolute left-0 bottom-0 right-0 top-0 bg-linear-to-t from-neutral-200 to-neutral-50/2 flex flex-col justify-end p-4 gap-1">
         <p className="text-xs lg:text-sm font-semibold">{book.name}</p>
-        <p className="text-xs italic">by {book.author}</p>
+        {book.author ? (
+          <p className="text-xs italic">by {book.author}</p>
+        ) : null}
 
         {book.tags?.length ? (
           <div className="flex gap-2 mt-1 flex-wrap">

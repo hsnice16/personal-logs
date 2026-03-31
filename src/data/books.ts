@@ -58,7 +58,7 @@ export type Provider = {
 
 export type Book = {
   name: string;
-  author: string;
+  author?: string;
   img?: StaticImageData;
   providers?: Provider[];
   shape?: "square";
@@ -67,6 +67,9 @@ export type Book = {
 
 export const BOOKS: { [key: string]: Book[] } = {
   "Mar '26": [
+    {
+      name: "The Complete Evolution of Decentralized Finance: A Comprehensive Mathematical and Architectural Survey",
+    },
     {
       name: "How Crypto Actually Works: The Missing Manual",
       author: "Larry Cermak",

@@ -69,6 +69,7 @@ import YouthOfMay from "@/web-show/youth-of-may.jpg";
 import CanThisLoveBeTranslated from "@/web-show/can-this-love-be-translated.jpg";
 
 import TheNightAgent from "@/web-show/the-night-agent.jpg";
+import TheWorstOfEvil2023 from "@/web-show/the-worst-of-evil-2023.webp";
 
 export type WebShow = {
   name: string;
@@ -77,6 +78,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Mar '26": [
+    {
+      img: TheWorstOfEvil2023,
+      name: "The Worst of Evil (TV Series 2023)",
+    },
     {
       img: TheNightAgent,
       name: "The Night Agent",
