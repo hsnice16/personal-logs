@@ -241,12 +241,25 @@ import TimeToHunt2020 from "@/movie/time-to-hunt-2020.jpg";
 import DhurandharTheRevenge2026 from "@/movie/dhurandhar-the-revenge-2026.jpg";
 import Chithha2023 from "@/movie/chithha-2023.jpg";
 
+import Bhoothakaalam2022 from "@/movie/bhoothakaalam-2022.jpg";
+import Crime1012026 from "@/movie/crime-101-2026.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Apr '26": [
+    {
+      name: "Crime 101 (2026 film)",
+      img: Crime1012026,
+    },
+    {
+      name: "Bhoothakaalam (2022)",
+      img: Bhoothakaalam2022,
+    },
+  ],
   "Mar '26": [
     {
       name: "Chithha (2023)",
