@@ -71,12 +71,20 @@ import CanThisLoveBeTranslated from "@/web-show/can-this-love-be-translated.jpg"
 import TheNightAgent from "@/web-show/the-night-agent.jpg";
 import TheWorstOfEvil2023 from "@/web-show/the-worst-of-evil-2023.webp";
 
+import BloodhoundsTwo from "@/web-show/bloodhounds-2.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Apr '26": [
+    {
+      img: BloodhoundsTwo,
+      name: "Bloodhounds: Season 2",
+    },
+  ],
   "Mar '26": [
     {
       img: TheWorstOfEvil2023,

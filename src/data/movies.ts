@@ -244,6 +244,7 @@ import Chithha2023 from "@/movie/chithha-2023.jpg";
 import Bhoothakaalam2022 from "@/movie/bhoothakaalam-2022.jpg";
 import Crime1012026 from "@/movie/crime-101-2026.jpg";
 import PorThozhil from "@/movie/por-thozhil-2023.jpg";
+import MemoriesOfMurder2003 from "@/movie/memories-of-murder-2003.jpg";
 
 export type Movie = {
   name: string;
@@ -252,6 +253,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Apr '26": [
+    {
+      name: "Memories of Murder (2003)",
+      img: MemoriesOfMurder2003,
+    },
     {
       name: "Por Thozhil (2023)",
       img: PorThozhil,
