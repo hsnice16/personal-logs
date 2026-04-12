@@ -48,6 +48,8 @@ import MyLifeInFull from "@/book/my-life-in-full.jpg";
 import Ikigai from "@/book/ikigai.jpg";
 import EdibleEconomics from "@/book/edible-economics.jpg";
 
+import Exercised from "@/book/exercised.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -66,6 +68,13 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Apr '26": [
+    {
+      name: "Exercised: The Science of Physical Activity, Rest and Health",
+      author: "Daniel Lieberman",
+      img: Exercised,
+    },
+  ],
   "Mar '26": [
     {
       name: "The Complete Evolution of Decentralized Finance: A Comprehensive Mathematical and Architectural Survey",
