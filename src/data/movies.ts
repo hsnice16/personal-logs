@@ -245,6 +245,9 @@ import Bhoothakaalam2022 from "@/movie/bhoothakaalam-2022.jpg";
 import Crime1012026 from "@/movie/crime-101-2026.jpg";
 import PorThozhil from "@/movie/por-thozhil-2023.jpg";
 import MemoriesOfMurder2003 from "@/movie/memories-of-murder-2003.jpg";
+import TheMaster1992 from "@/movie/the-master-1992.jpg";
+import DoNotEnter2026 from "@/movie/do-not-enter-2026.jpeg";
+import BlueSpring2001 from "@/movie/blue-spring-2001.jpg";
 
 export type Movie = {
   name: string;
@@ -253,6 +256,18 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Apr '26": [
+    {
+      name: "Blue Spring (2001)",
+      img: BlueSpring2001,
+    },
+    {
+      name: "Do Not Enter (2026)",
+      img: DoNotEnter2026,
+    },
+    {
+      name: "The Master (1992)",
+      img: TheMaster1992,
+    },
     {
       name: "Memories of Murder (2003)",
       img: MemoriesOfMurder2003,
