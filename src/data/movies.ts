@@ -248,6 +248,7 @@ import MemoriesOfMurder2003 from "@/movie/memories-of-murder-2003.jpg";
 import TheMaster1992 from "@/movie/the-master-1992.jpg";
 import DoNotEnter2026 from "@/movie/do-not-enter-2026.jpeg";
 import BlueSpring2001 from "@/movie/blue-spring-2001.jpg";
+import OneBattleAfterAnother2025 from "@/movie/one-battle-after-another-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -256,6 +257,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Apr '26": [
+    {
+      name: "One Battle After Another (2025)",
+      img: OneBattleAfterAnother2025,
+    },
     {
       name: "Blue Spring (2001)",
       img: BlueSpring2001,
