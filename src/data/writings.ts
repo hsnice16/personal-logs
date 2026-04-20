@@ -40,6 +40,8 @@ import IpfsForTheDWeb from "@/writing/ipfs-for-the-d-web.png";
 
 import BlockchainRelayers from "@/writing/blockchain-relayers.png";
 
+import RollupsForScaling from "@/writing/rollups-for-scaling.png";
+
 export type Writing = {
   name: string;
   link: string;
@@ -47,6 +49,13 @@ export type Writing = {
 };
 
 export const WRITINGS: { [key: string]: Writing[] } = {
+  "Apr '26": [
+    {
+      name: "rollups-for-scaling",
+      link: "https://hsnice16.medium.com/rollups-for-scaling-c3ff51bb004f",
+      img: RollupsForScaling,
+    },
+  ],
   "Mar '26": [
     {
       name: "blockchain-relayers",
