@@ -49,6 +49,7 @@ import Ikigai from "@/book/ikigai.jpg";
 import EdibleEconomics from "@/book/edible-economics.jpg";
 
 import Exercised from "@/book/exercised.jpg";
+import Energize from "@/book/energize.jpg";
 
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
@@ -69,6 +70,11 @@ export type Book = {
 
 export const BOOKS: { [key: string]: Book[] } = {
   "Apr '26": [
+    {
+      name: "Energize: Make the Most of Every Moment",
+      author: "Simon Alexander Ong",
+      img: Energize,
+    },
     {
       name: "Exercised: The Science of Physical Activity, Rest and Health",
       author: "Daniel Lieberman",
