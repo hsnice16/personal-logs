@@ -31,7 +31,8 @@
       "@/web-show/*": ["public/web-show/*"],
       "@/writing/*": ["public/writing/*"],
       "@/product/*": ["public/product/*"],
-      "@/logo/*": ["public/logo/*"]
+      "@/logo/*": ["public/logo/*"],
+      "@/project/*": ["public/project/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],

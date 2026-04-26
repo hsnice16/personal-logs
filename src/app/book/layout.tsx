@@ -1,3 +1,4 @@
+import { APP_URL } from "@/constant/value";
 import { BOOKS } from "@/data/books";
 import Aside from "@/ui/aside";
 
@@ -7,18 +8,18 @@ export const metadata = {
     "Tracking books I've read. Browse around—you might find something interesting! ☕",
   openGraph: {
     siteName: "Book | Personal Logs",
-    url: "https://personal-logs.vercel.app/book",
+    url: `${APP_URL}/book`,
     title: "Book | Personal Logs",
     description:
       "Tracking books I've read. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app-book.png"],
+    images: [`${APP_URL}/icon/app-book.png`],
   },
   twitter: {
     card: "summary_large_image",
     title: "Book | Personal Logs",
     description:
       "Tracking books I've read. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app-book.png"],
+    images: [`${APP_URL}/icon/app-book.png`],
   },
 };
 

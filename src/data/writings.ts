@@ -43,8 +43,8 @@ import BlockchainRelayers from "@/writing/blockchain-relayers.png";
 import RollupsForScaling from "@/writing/rollups-for-scaling.png";
 
 export type Writing = {
-  name: string;
   link: string;
+  name: string;
   img: StaticImageData;
 };
 

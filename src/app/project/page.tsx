@@ -1,18 +1,18 @@
 import React from "react";
 
-import { CODE_PLAYLISTS } from "@/data/code-playlists";
+import { PROJECTS } from "@/data/projects";
 
-import CodePlaylist from "@/ui/code-playlist";
 import LayoutPage from "@/ui/layout-page";
 import LayoutPageContent from "@/ui/layout-page-content";
 import LayoutPageH3 from "@/ui/layout-page-h3";
+import Project from "@/ui/project";
 import Separator from "@/ui/separator";
 
 export default function Page() {
   return (
     <LayoutPage>
-      {Object.keys(CODE_PLAYLISTS).map((key, index, array) => {
-        const entries = CODE_PLAYLISTS[key];
+      {Object.keys(PROJECTS).map((key, index, array) => {
+        const entries = PROJECTS[key];
         const isLast = index + 1 === array.length;
 
         return (
@@ -20,13 +20,8 @@ export default function Page() {
             <LayoutPageH3 heading={key} />
 
             <LayoutPageContent>
-              {entries.map((codePlaylist, index) => {
-                return (
-                  <CodePlaylist
-                    codePlaylist={codePlaylist}
-                    key={index + codePlaylist.toString()}
-                  />
-                );
+              {entries.map((project, index) => {
+                return <Project project={project} key={index + project.name} />;
               })}
             </LayoutPageContent>
 

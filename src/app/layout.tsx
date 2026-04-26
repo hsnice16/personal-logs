@@ -6,6 +6,7 @@ import MainHead from "@/ui/main-head";
 import FirebaseAnalytics from "@/component/firebase-analytics";
 
 import { geist } from "@/constant/font";
+import { APP_URL } from "@/constant/value";
 import clsx from "clsx";
 import { Metadata } from "next";
 
@@ -18,18 +19,18 @@ export const metadata: Metadata = {
     "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
   openGraph: {
     siteName: "Personal Logs",
-    url: "https://personal-logs.vercel.app/",
+    url: APP_URL,
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app.png"],
+    images: [`${APP_URL}/icon/app.png`],
   },
   twitter: {
     card: "summary_large_image",
     title: "Personal Logs",
     description:
       "Tracking books I've read and more. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app.png"],
+    images: [`${APP_URL}/icon/app.png`],
   },
 };
 

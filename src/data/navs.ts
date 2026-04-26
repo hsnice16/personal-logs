@@ -19,6 +19,10 @@ export const LINKS = {
       label: "Talk",
     },
     {
+      href: "project",
+      label: "Project",
+    },
+    {
       href: "product",
       label: "Product",
     },

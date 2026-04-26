@@ -1,3 +1,4 @@
+import { APP_URL } from "@/constant/value";
 import { CODE_PLAYLISTS } from "@/data/code-playlists";
 import Aside from "@/ui/aside";
 
@@ -7,18 +8,18 @@ export const metadata = {
     "Tracking code playlists I've created. Browse around—you might find something interesting! ☕",
   openGraph: {
     siteName: "Code Playlist | Personal Logs",
-    url: "https://personal-logs.vercel.app/code-playlist",
+    url: `${APP_URL}/code-playlist`,
     title: "Code Playlist | Personal Logs",
     description:
       "Tracking code playlists I've created. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app-code-playlist.png"],
+    images: [`${APP_URL}/icon/app-code-playlist.png`],
   },
   twitter: {
     card: "summary_large_image",
     title: "Code Playlist | Personal Logs",
     description:
       "Tracking code playlists I've created. Browse around—you might find something interesting! ☕",
-    images: ["https://personal-logs.vercel.app/icon/app-code-playlist.png"],
+    images: [`${APP_URL}/icon/app-code-playlist.png`],
   },
 };
 
