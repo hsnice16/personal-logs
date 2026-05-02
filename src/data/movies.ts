@@ -250,12 +250,20 @@ import DoNotEnter2026 from "@/movie/do-not-enter-2026.jpeg";
 import BlueSpring2001 from "@/movie/blue-spring-2001.jpg";
 import OneBattleAfterAnother2025 from "@/movie/one-battle-after-another-2025.jpg";
 
+import Avatar2009Film from "@/movie/avatar-2009-film.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "May '26": [
+    {
+      name: "Avatar (2009 film)",
+      img: Avatar2009Film,
+    },
+  ],
   "Apr '26": [
     {
       name: "One Battle After Another (2025)",
