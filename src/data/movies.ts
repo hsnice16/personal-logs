@@ -251,6 +251,7 @@ import BlueSpring2001 from "@/movie/blue-spring-2001.jpg";
 import OneBattleAfterAnother2025 from "@/movie/one-battle-after-another-2025.jpg";
 
 import Avatar2009Film from "@/movie/avatar-2009-film.jpg";
+import Always2011 from "@/movie/always-2011.jpg";
 
 export type Movie = {
   name: string;
@@ -259,6 +260,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "May '26": [
+    {
+      name: "Always (2011)",
+      img: Always2011,
+    },
     {
       name: "Avatar (2009 film)",
       img: Avatar2009Film,
