@@ -252,6 +252,7 @@ import OneBattleAfterAnother2025 from "@/movie/one-battle-after-another-2025.jpg
 
 import Avatar2009Film from "@/movie/avatar-2009-film.jpg";
 import Always2011 from "@/movie/always-2011.jpg";
+import AvatarFireAndAsh2025 from "@/movie/avatar-fire-and-ash-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -260,6 +261,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "May '26": [
+    {
+      name: "Avatar: Fire and Ash (2025)",
+      img: AvatarFireAndAsh2025,
+    },
     {
       name: "Always (2011)",
       img: Always2011,
