@@ -64,6 +64,8 @@ import HundredMeters from "@/anime/100-meters.jpg";
 
 import IMadeFriendsWithTheSecondPrettiestGirlInMyClass from "@/anime/i-made-friends-with-the-second-prettiest-girl-in-my-class.webp";
 
+import TerrorInResonance from "@/anime/terror-in-resonance.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -71,6 +73,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "May '26": [
+    {
+      name: "Terror in Resonance",
+      img: TerrorInResonance,
+    },
+  ],
   "Apr '26": [
     {
       name: "I Made Friends with the Second Prettiest Girl in My Class",
