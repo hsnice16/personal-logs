@@ -69,6 +69,12 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "May '26": [
+    {
+      name: "Architecture of a Database System",
+      author: "Joseph M. Hellerstein, Michael Stonebraker, and James Hamilton",
+    },
+  ],
   "Apr '26": [
     {
       name: "Energize: Make the Most of Every Moment",
