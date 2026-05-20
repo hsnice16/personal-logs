@@ -74,12 +74,20 @@ import TheWorstOfEvil2023 from "@/web-show/the-worst-of-evil-2023.webp";
 import BloodhoundsTwo from "@/web-show/bloodhounds-2.jpg";
 import IfWishesCouldKill from "@/web-show/if-wishes-could-kill.jpg";
 
+import TheWonderFools from "@/web-show/the-wonderfools.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "May '26": [
+    {
+      img: TheWonderFools,
+      name: "The WONDERfools (2026)",
+    },
+  ],
   "Apr '26": [
     {
       img: IfWishesCouldKill,
