@@ -76,12 +76,25 @@ import IfWishesCouldKill from "@/web-show/if-wishes-could-kill.jpg";
 
 import TheWonderFools from "@/web-show/the-wonderfools.jpg";
 
+import OffCampus from "@/web-show/off-campus.jpeg";
+import TeachYouALesson from "@/web-show/teach-you-a-lesson.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Jun '26": [
+    {
+      img: TeachYouALesson,
+      name: "Teach You a Lesson (TV Series 2026)",
+    },
+    {
+      img: OffCampus,
+      name: "Off Campus (TV Series 2026)",
+    },
+  ],
   "May '26": [
     {
       img: TheWonderFools,
