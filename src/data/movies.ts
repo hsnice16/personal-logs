@@ -258,12 +258,20 @@ import Love9112012 from "@/movie/love-911-2012.jpg";
 import HoppersFilm from "@/movie/hoppers-film.jpg";
 import ProjectHailMary2026 from "@/movie/project-hail-mary-2026.jpg";
 
+import Shelter2026Film from "@/movie/shelter-2026-film.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Jun '26": [
+    {
+      name: "Shelter (2026 film)",
+      img: Shelter2026Film,
+    },
+  ],
   "May '26": [
     {
       name: "Project Hail Mary (2026)",
