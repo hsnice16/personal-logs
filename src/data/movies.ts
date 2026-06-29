@@ -260,6 +260,7 @@ import ProjectHailMary2026 from "@/movie/project-hail-mary-2026.jpg";
 
 import Shelter2026Film from "@/movie/shelter-2026-film.jpg";
 import HusbandsInAction2026 from "@/movie/husbands-in-action-2026.png";
+import Omkara2006Film from "@/movie/omkara-2006-film.jpeg";
 
 export type Movie = {
   name: string;
@@ -268,6 +269,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jun '26": [
+    {
+      name: "Omkara (2006 film)",
+      img: Omkara2006Film,
+    },
     {
       name: "Husbands in Action (2026)",
       img: HusbandsInAction2026,

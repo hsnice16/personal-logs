@@ -78,6 +78,7 @@ import TheWonderFools from "@/web-show/the-wonderfools.jpg";
 
 import OffCampus from "@/web-show/off-campus.jpeg";
 import TeachYouALesson from "@/web-show/teach-you-a-lesson.jpg";
+import AgentKimReactivated from "@/web-show/agent-kim-reactivated.jpg";
 
 export type WebShow = {
   name: string;
@@ -86,6 +87,10 @@ export type WebShow = {
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
   "Jun '26": [
+    {
+      name: "Agent Kim Reactivated (TV Series 2026)",
+      img: AgentKimReactivated,
+    },
     {
       img: TeachYouALesson,
       name: "Teach You a Lesson (TV Series 2026)",

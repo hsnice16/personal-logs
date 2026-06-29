@@ -66,6 +66,8 @@ import IMadeFriendsWithTheSecondPrettiestGirlInMyClass from "@/anime/i-made-frie
 
 import TerrorInResonance from "@/anime/terror-in-resonance.jpg";
 
+import Rainbow from "@/anime/rainbow.jpeg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -73,6 +75,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Jun '26": [
+    {
+      name: "Rainbow: Nisha Rokubō no Shichinin",
+      img: Rainbow,
+    },
+  ],
   "May '26": [
     {
       name: "Terror in Resonance",
