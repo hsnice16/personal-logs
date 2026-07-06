@@ -53,6 +53,8 @@ import Energize from "@/book/energize.jpg";
 
 import ThePowerOfNow from "@/book/the-power-of-now.jpg";
 
+import DeepWork from "@/book/deep-work.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -71,6 +73,13 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Jul '26": [
+    {
+      name: "Deep work : rules for focused success in a distracted world",
+      author: "Cal Newport",
+      img: DeepWork,
+    },
+  ],
   "Jun '26": [
     {
       name: "The Power of Now: A Guide to Spiritual Enlightenment",

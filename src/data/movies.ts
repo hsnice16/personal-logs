@@ -262,12 +262,20 @@ import Shelter2026Film from "@/movie/shelter-2026-film.jpg";
 import HusbandsInAction2026 from "@/movie/husbands-in-action-2026.png";
 import Omkara2006Film from "@/movie/omkara-2006-film.jpeg";
 
+import VoicemailsForIsabelle2026 from "@/movie/voicemails-for-isabelle-2026.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Jul '26": [
+    {
+      name: "Voicemails for Isabelle (2026)",
+      img: VoicemailsForIsabelle2026,
+    },
+  ],
   "Jun '26": [
     {
       name: "Omkara (2006 film)",
