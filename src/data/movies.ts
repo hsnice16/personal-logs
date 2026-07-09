@@ -263,6 +263,9 @@ import HusbandsInAction2026 from "@/movie/husbands-in-action-2026.png";
 import Omkara2006Film from "@/movie/omkara-2006-film.jpeg";
 
 import VoicemailsForIsabelle2026 from "@/movie/voicemails-for-isabelle-2026.jpg";
+import Obsession2025Film from "@/movie/obsession-2025-film.jpeg";
+import TheFurious2026 from "@/movie/the-furious-2026.avif";
+import Exit82025 from "@/movie/exit-8-2025.jpg";
 
 export type Movie = {
   name: string;
@@ -271,6 +274,18 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '26": [
+    {
+      name: "Exit 8 (2025)",
+      img: Exit82025,
+    },
+    {
+      name: "The Furious (2026)",
+      img: TheFurious2026,
+    },
+    {
+      name: "Obsession (2025 film)",
+      img: Obsession2025Film,
+    },
     {
       name: "Voicemails for Isabelle (2026)",
       img: VoicemailsForIsabelle2026,
