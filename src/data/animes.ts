@@ -68,6 +68,8 @@ import TerrorInResonance from "@/anime/terror-in-resonance.jpg";
 
 import Rainbow from "@/anime/rainbow.jpeg";
 
+import RemakeOurLife from "@/anime/remake-our-life.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -75,6 +77,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Jul '26": [
+    {
+      name: "Remake Our Life!",
+      img: RemakeOurLife,
+    },
+  ],
   "Jun '26": [
     {
       name: "Rainbow: Nisha Rokubō no Shichinin",

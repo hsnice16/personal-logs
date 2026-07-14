@@ -266,6 +266,7 @@ import VoicemailsForIsabelle2026 from "@/movie/voicemails-for-isabelle-2026.jpg"
 import Obsession2025Film from "@/movie/obsession-2025-film.jpeg";
 import TheFurious2026 from "@/movie/the-furious-2026.avif";
 import Exit82025 from "@/movie/exit-8-2025.jpg";
+import Satluj2026Film from "@/movie/satluj-film.jpg";
 
 export type Movie = {
   name: string;
@@ -274,6 +275,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '26": [
+    {
+      name: "Satluj (2026 film)",
+      img: Satluj2026Film,
+    },
     {
       name: "Exit 8 (2025)",
       img: Exit82025,
