@@ -267,6 +267,8 @@ import Obsession2025Film from "@/movie/obsession-2025-film.jpeg";
 import TheFurious2026 from "@/movie/the-furious-2026.avif";
 import Exit82025 from "@/movie/exit-8-2025.jpg";
 import Satluj2026Film from "@/movie/satluj-film.jpg";
+import TheWailing2016 from "@/movie/the-wailing-2016.jpg";
+import Exhuma2024 from "@/movie/exhuma-2024.jpg";
 
 export type Movie = {
   name: string;
@@ -275,6 +277,14 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Jul '26": [
+    {
+      name: "Exhuma (2024)",
+      img: Exhuma2024,
+    },
+    {
+      name: "The Wailing (2016)",
+      img: TheWailing2016,
+    },
     {
       name: "Satluj (2026 film)",
       img: Satluj2026Film,
