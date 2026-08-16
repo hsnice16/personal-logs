@@ -270,12 +270,25 @@ import Satluj2026Film from "@/movie/satluj-film.jpg";
 import TheWailing2016 from "@/movie/the-wailing-2016.jpg";
 import Exhuma2024 from "@/movie/exhuma-2024.jpg";
 
+import GhostTrain2024 from "@/movie/ghost-train-2024.jpg";
+import Colony2026 from "@/movie/colony-2026.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Aug '26": [
+    {
+      name: "Colony (2026)",
+      img: Colony2026,
+    },
+    {
+      name: "Ghost Train (2024)",
+      img: GhostTrain2024,
+    },
+  ],
   "Jul '26": [
     {
       name: "Exhuma (2024)",
