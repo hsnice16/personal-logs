@@ -73,6 +73,12 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Aug '26": [
+    {
+      name: "Introduction to Compilers and Language Design, 2nd Edition",
+      author: "Prof. Douglas Thain at Notre Dame",
+    },
+  ],
   "Jul '26": [
     {
       name: "Deep work : rules for focused success in a distracted world",
