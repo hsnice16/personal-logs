@@ -82,12 +82,20 @@ import AgentKimReactivated from "@/web-show/agent-kim-reactivated.jpg";
 
 import TheEastPalace2026 from "@/web-show/the-east-palace-2026.jpg";
 
+import EviLive from "@/web-show/evilive.jpeg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Aug '26": [
+    {
+      name: "Evilive (TV series)",
+      img: EviLive,
+    },
+  ],
   "Jul '26": [
     {
       name: "The East Palace (TV Series 2026)",
