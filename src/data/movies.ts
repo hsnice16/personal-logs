@@ -273,12 +273,20 @@ import Exhuma2024 from "@/movie/exhuma-2024.jpg";
 import GhostTrain2024 from "@/movie/ghost-train-2024.jpg";
 import Colony2026 from "@/movie/colony-2026.jpg";
 
+import KingOfComedy1999 from "@/movie/king-of-comedy-1999.jpg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Sep '26": [
+    {
+      name: "King of Comedy (1999)",
+      img: KingOfComedy1999,
+    },
+  ],
   "Aug '26": [
     {
       name: "Colony (2026)",
