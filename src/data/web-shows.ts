@@ -84,12 +84,20 @@ import TheEastPalace2026 from "@/web-show/the-east-palace-2026.jpg";
 
 import EviLive from "@/web-show/evilive.jpeg";
 
+import TheEternaut from "@/web-show/the-eternaut.jpg";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Sep '26": [
+    {
+      name: "The Eternaut (TV series)",
+      img: TheEternaut,
+    },
+  ],
   "Aug '26": [
     {
       name: "Evilive (TV series)",
