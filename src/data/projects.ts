@@ -4,6 +4,8 @@ import TechInterviewExp from "@/project/tech-interview-exp.png";
 
 import AgentFriendlyCode from "@/project/agent-friendly-code.png";
 
+import Tula from "@/project/tula.png";
+
 export type Project = {
   link: string;
   name: string;
@@ -11,6 +13,13 @@ export type Project = {
 };
 
 export const PROJECTS = {
+  "Sep '26": [
+    {
+      img: Tula,
+      name: "usetu.la",
+      link: "https://usetu.la",
+    },
+  ],
   "Apr '26": [
     {
       img: AgentFriendlyCode,
