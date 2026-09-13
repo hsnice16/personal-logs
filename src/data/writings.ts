@@ -42,6 +42,8 @@ import BlockchainRelayers from "@/writing/blockchain-relayers.png";
 
 import RollupsForScaling from "@/writing/rollups-for-scaling.png";
 
+import BuildingProjectsInTheAIEraForSoftwareEngineers from "@/writing/building-projects-in-the-ai-era-for-software-engineers.png";
+
 export type Writing = {
   link: string;
   name: string;
@@ -49,6 +51,13 @@ export type Writing = {
 };
 
 export const WRITINGS: { [key: string]: Writing[] } = {
+  "Sep '26": [
+    {
+      name: "building-projects-in-the-ai-era-for-software-engineers",
+      link: "https://hsnice16.medium.com/building-projects-in-the-ai-era-for-software-engineers-72f3ddcd2a40",
+      img: BuildingProjectsInTheAIEraForSoftwareEngineers,
+    },
+  ],
   "Apr '26": [
     {
       name: "rollups-for-scaling",
