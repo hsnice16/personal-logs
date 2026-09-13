@@ -55,6 +55,8 @@ import ThePowerOfNow from "@/book/the-power-of-now.jpg";
 
 import DeepWork from "@/book/deep-work.jpg";
 
+import TheHardThingAboutHardThings from "@/book/the-hard-thing-about-hard-things.jpg";
+
 // Providers
 import AmazonLogo from "@/logo/amazon.svg";
 
@@ -73,6 +75,13 @@ export type Book = {
 };
 
 export const BOOKS: { [key: string]: Book[] } = {
+  "Sep '26": [
+    {
+      name: "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
+      author: "Ben Horowitz",
+      img: TheHardThingAboutHardThings,
+    },
+  ],
   "Aug '26": [
     {
       name: "Introduction to Compilers and Language Design, 2nd Edition",
