@@ -274,6 +274,7 @@ import GhostTrain2024 from "@/movie/ghost-train-2024.jpg";
 import Colony2026 from "@/movie/colony-2026.jpg";
 
 import KingOfComedy1999 from "@/movie/king-of-comedy-1999.jpg";
+import TheEndOfOakStreet2026 from "@/movie/the-end-of-oak-street-2026.jpg";
 
 export type Movie = {
   name: string;
@@ -282,6 +283,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Sep '26": [
+    {
+      name: "The End of Oak Street (2026)",
+      img: TheEndOfOakStreet2026,
+    },
     {
       name: "King of Comedy (1999)",
       img: KingOfComedy1999,

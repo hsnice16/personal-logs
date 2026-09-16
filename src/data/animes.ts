@@ -70,6 +70,8 @@ import Rainbow from "@/anime/rainbow.jpeg";
 
 import RemakeOurLife from "@/anime/remake-our-life.jpg";
 
+import OhBoyWasIWrongAboutHer from "@/anime/oh-boy-was-i-wrong-about-her.jpg";
+
 export type Anime = {
   name: string;
   img: StaticImageData;
@@ -77,6 +79,12 @@ export type Anime = {
 };
 
 export const ANIMES: { [key: string]: Anime[] } = {
+  "Sep '26": [
+    {
+      name: "Oh Boy, Was I Wrong About Her (TV Series 2026)",
+      img: OhBoyWasIWrongAboutHer,
+    },
+  ],
   "Jul '26": [
     {
       name: "Remake Our Life!",
