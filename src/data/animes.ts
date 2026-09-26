@@ -71,6 +71,7 @@ import Rainbow from "@/anime/rainbow.jpeg";
 import RemakeOurLife from "@/anime/remake-our-life.jpg";
 
 import OhBoyWasIWrongAboutHer from "@/anime/oh-boy-was-i-wrong-about-her.jpg";
+import DontToyWithMeMissNagatoro from "@/anime/dont-toy-with-me-miss-nagatoro.jpg";
 
 export type Anime = {
   name: string;
@@ -80,6 +81,10 @@ export type Anime = {
 
 export const ANIMES: { [key: string]: Anime[] } = {
   "Sep '26": [
+    {
+      name: "Don't Toy with Me, Miss Nagatoro",
+      img: DontToyWithMeMissNagatoro,
+    },
     {
       name: "Oh Boy, Was I Wrong About Her (TV Series 2026)",
       img: OhBoyWasIWrongAboutHer,
