@@ -86,12 +86,20 @@ import EviLive from "@/web-show/evilive.jpeg";
 
 import TheEternaut from "@/web-show/the-eternaut.jpg";
 
+import Reply1988 from "@/web-show/reply-1988.webp";
+
 export type WebShow = {
   name: string;
   img: StaticImageData;
 };
 
 export const WEB_SHOWS: { [key: string]: WebShow[] } = {
+  "Oct '26": [
+    {
+      name: "Reply 1988 (TV Series 2015–2016)",
+      img: Reply1988,
+    },
+  ],
   "Sep '26": [
     {
       name: "The Eternaut (TV series)",
