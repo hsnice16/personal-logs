@@ -276,12 +276,20 @@ import Colony2026 from "@/movie/colony-2026.jpg";
 import KingOfComedy1999 from "@/movie/king-of-comedy-1999.jpg";
 import TheEndOfOakStreet2026 from "@/movie/the-end-of-oak-street-2026.jpg";
 
+import UnaBomber2026 from "@/movie/unabomber-2026.jpeg";
+
 export type Movie = {
   name: string;
   img: StaticImageData;
 };
 
 export const MOVIES: { [key: string]: Movie[] } = {
+  "Oct '26": [
+    {
+      name: "Unabomber (2026)",
+      img: UnaBomber2026,
+    },
+  ],
   "Sep '26": [
     {
       name: "The End of Oak Street (2026)",
