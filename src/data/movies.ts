@@ -278,6 +278,7 @@ import TheEndOfOakStreet2026 from "@/movie/the-end-of-oak-street-2026.jpg";
 
 import UnaBomber2026 from "@/movie/unabomber-2026.jpeg";
 import GhostInTheCell2026 from "@/movie/ghost-in-the-cell-2026.jpeg";
+import ApocalypseZNewWorld2026 from "@/movie/apocalypse-z-new-world-2026.jpeg";
 
 export type Movie = {
   name: string;
@@ -286,6 +287,10 @@ export type Movie = {
 
 export const MOVIES: { [key: string]: Movie[] } = {
   "Oct '26": [
+    {
+      name: "Apocalypse Z: New World (2026)",
+      img: ApocalypseZNewWorld2026,
+    },
     {
       name: "Ghost in the Cell (2026)",
       img: GhostInTheCell2026,
